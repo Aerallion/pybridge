@@ -7,8 +7,11 @@ The idea is that you can multiple instances on a server in such a way that infor
 You start the (4) instances on a unix-based server (e.g. with 4 different users):
 
 > bridge_v1.py N 1123 &
+
 > bridge_v1.py O 1123 &
+
 > bridge_v1.py Z 1123 &
+
 > bridge_v1.py W 1123 &
 
 with 1123 the common random seed.
