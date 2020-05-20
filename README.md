@@ -16,7 +16,7 @@ You start the (4) instances on a unix-based server (e.g. with 4 different users)
 
 with 1123 the common random seed.
 
-Alternatively you can defined a file like "may182020", specifying predefined games.
+Alternatively you can define a file like "may182020", specifying predefined games.
 
 > bridge_v1.py N f9 may182020
 
