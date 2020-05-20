@@ -64,7 +64,7 @@ def set_visibility():
                 btn.place_forget()
                 if (btn.xpos == hand.playx) and (btn.ypos == hand.playy):    
                     btn.place(x=btn.xpos,y=btn.ypos)
-        else:         # make visible
+        else:         # make visible if not played yet (otherwise -999)
             for btn in hand.buttons:
                 btn.place(x=btn.xpos,y=btn.ypos)
 
@@ -224,14 +224,12 @@ class undo_redo:
     def __init__(self,c):
         self.took_back = []
         self.actions   = []
-        undo = Button(c,text="Undo")
+        undo = Button(c,text="Undo", command=self.take_back)
         undo.place(x = 1350, y = 20)
-        undo.bind("<Button-1>", self.take_back)
-        redo = Button(c,text="Redo")
+        redo = Button(c,text="Redo",command=self.forward)
         redo.place(x = 1350, y = 40)
-        redo.bind("<Button-1>", self.forward)
 
-    def take_back(self,event):
+    def take_back(self):
         if len(self.actions) > 0:
             action = self.actions.pop()
             if action[0] == 1:    # take back played card and reset played
@@ -282,7 +280,7 @@ class undo_redo:
         # finally set visibility according to togglebuttons:
         set_visibility()
 
-    def forward(self,event):
+    def forward(self):
         ''' roll forward in time, whihc is only possible right after undo actions'''
         if len(self.took_back) > 0:
             action = self.took_back.pop()
@@ -391,13 +389,14 @@ class hand:
 class select_card:
     def __init__(self, c, diamonds, clubs, hearts, spades):
 
+        xpos = 1300; dx = 30; ypos = 140
         listbox_diamonds = Listbox(c,height=13,width=4,borderwidth=1,exportselection=False)
         for entry in diamonds:
             listbox_diamonds.insert(END, entry)
         for i in range(13):
             listbox_diamonds.itemconfig(i, {'fg': 'orange red'})
             listbox_diamonds.itemconfig(i, {'bg': 'green3'})
-        listbox_diamonds.place(x = 1000,y =10)
+        listbox_diamonds.place(x = xpos, y = ypos)
         listbox_diamonds.bind("<<ListboxSelect>>", self.play)
 
          
@@ -407,7 +406,7 @@ class select_card:
         for i in range(13):
             listbox_clubs.itemconfig(i, {'fg': 'grey15'})
             listbox_clubs.itemconfig(i, {'bg': 'green3'})
-        listbox_clubs.place(x = 1030,y =10)
+        listbox_clubs.place(x = xpos+dx, y = ypos)
         listbox_clubs.bind("<<ListboxSelect>>", self.play)
 
         listbox_hearts = Listbox(c,height=13,width=4,borderwidth=1,exportselection=False)
@@ -416,7 +415,7 @@ class select_card:
         for i in range(13):
             listbox_hearts.itemconfig(i, {'fg': 'red'})
             listbox_hearts.itemconfig(i, {'bg': 'green3'})
-        listbox_hearts.place(x = 1060,y =10)
+        listbox_hearts.place(x = xpos + 2*dx, y = ypos)
         listbox_hearts.bind("<<ListboxSelect>>", self.play)
 
         listbox_spades = Listbox(c,height=13,width=4,borderwidth=1,exportselection=False)
@@ -425,7 +424,7 @@ class select_card:
         for i in range(13):
             listbox_spades.itemconfig(i, {'fg': 'black'})
             listbox_spades.itemconfig(i, {'bg': 'green3'})
-        listbox_spades.place(x = 1090,y =10)
+        listbox_spades.place(x = xpos + 3*dx, y = ypos)
         listbox_spades.bind("<<ListboxSelect>>", self.play)
 
     def play(self,event):
@@ -471,7 +470,11 @@ class logistics:
         xval = ['2','3','4','5','6','7','8','9','10','J','Q','K','A']
         val = np.arange(13)
         self.vald = dict(zip(xval,val))
+        # button to click to view all hands:
 
+        self.afterplay = IntVar(value=0)
+        self.afterplayw = Checkbutton(c, text='Nakaarten', variable=self.afterplay, command = self.after_play)
+        self.afterplayw.place(x=1315,y=100)
         
 
 
@@ -550,6 +553,32 @@ class logistics:
 #        self.wcontract.delete(0,END)
 #        self.wcontract.insert(
 
+    def after_play(self):
+        after = self.afterplay.get()
+        if after == 1:
+            # save old value:
+            self.nviso = nvis.get()
+            self.eviso = evis.get()
+            self.sviso = svis.get()
+            self.wviso = wvis.get()
+            nvis.set(1)
+            evis.set(1)
+            svis.set(1)
+            wvis.set(1)
+            set_visibility()
+            # roll back history:
+            naction = len(history.actions)
+            for i in range(naction):
+                history.take_back()
+        else:
+            nvis.set(self.nviso)
+            evis.set(self.eviso)
+            svis.set(self.sviso)
+            wvis.set(self.wviso)
+            set_visibility()
+
+
+
 
 
 class create_playfield:
@@ -601,7 +630,7 @@ if __name__ == "__main__":
     print( 'Number of arguments:', len(sys.argv), 'arguments.')
     print( 'Argument List:', str(sys.argv))
     t = Tk()
-    pp = "./kaarten_groot/"
+    pp = "/Users/krol/bridge/kaarten_groot/"
     # deal
     allcards =  ['2R','3R','4R','5R','6R','7R','8R','9R','10R','JR','QR','KR','AR', 
                  '2K','3K','4K','5K','6K','7K','8K','9K','10K','JK','QK','KK','AK',
@@ -705,7 +734,7 @@ if __name__ == "__main__":
     
     width = 70
     height = 70
-    with open('./players.txt','r') as f:
+    with open('players.txt','r') as f:
         pics = []
         for i in range(4):
             line = f.readline().split()
