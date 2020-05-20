@@ -1,0 +1,4 @@
+./bridge_v1.py N 83925 &
+./bridge_v1.py O 83925 &
+./bridge_v1.py Z 83925 &
+./bridge_v1.py W 83925 &
