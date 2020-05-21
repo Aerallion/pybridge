@@ -84,9 +84,8 @@ def play_card(card,to_x,to_y):
         play_info.lead = card.cardname[-1:]   # set color to follow for the other players 'K','R','H','S'
     # We will play: update logistics:
     # write to playinfo:
-    f = open('testinfo','w')
-    f.write(play_info.to_play+card.cardname)
-    f.close()
+    with open('testinfo','w') as f:
+        f.write(play_info.to_play+card.cardname)
     play_info.ncards   += 1
     play_info.allcards += 1
     # store action type 1: move card. button & old position, the player itself, and the lead color
@@ -169,6 +168,10 @@ def readinfo():
             elif line.startswith('result '):
                 contract_result = line[line.find(' ')+1:]
                 play_info.tcontract.set(contract_result)
+            elif line.startswith('claim'):
+                play_info.claim.set(1)
+                play_info.claim_tricks()
+
             else:
                 None
 
@@ -475,6 +478,15 @@ class logistics:
         self.afterplay = IntVar(value=0)
         self.afterplayw = Checkbutton(c, text='Nakaarten', variable=self.afterplay, command = self.after_play)
         self.afterplayw.place(x=1315,y=100)
+        self.claim = IntVar(value=0)
+        self.claimw = Checkbutton(c, text='Claim', variable=self.claim, command = self.claim_tricks)
+        self.claimw.place(x=1315,y=80)
+        self.claimed = False
+        self.next_game = False
+        self.wnext = Button(c,text="Volgende Spel",command=self.play_next_game)
+        self.wnext.place(x=1315,y=700)
+        self.wend = Button(c,text="Stop",command=self.stop_game)
+        self.wend.place(x=1315,y=725)
         
 
 
@@ -577,6 +589,38 @@ class logistics:
             wvis.set(self.wviso)
             set_visibility()
 
+    def claim_tricks(self):
+        if not self.claimed:
+            if messagebox.askyesno('Claim','Agree with claim?'):
+                self.claimed = True  # avoid repeated message box
+                with open('testinfo','w') as f:
+                    f.write('claim')
+                nvis.set(1)
+                evis.set(1)
+                svis.set(1)
+                wvis.set(1)
+                set_visibility()
+                player = play_info.tplayer.get()
+                remaining = 13 - (play_info.ns + play_info.ew)
+                if remaining > 0:
+                    if player == 'N' or player == 'Z':
+                        play_info.ns += remaining
+                    else:
+                        play_info.ew += remaining
+                    play_info.tricks_ew['text']  = "%2i"%play_info.ew
+                    play_info.tricks_ns['text']  = "%2i"%play_info.ns
+                #self.finish_play()
+            else:
+                self.claim.set(0)
+
+    def play_next_game(self):
+        self.next_game = True
+        t.destroy()
+    def stop_game(self):
+        t.destroy()
+
+
+
 
 
 
@@ -629,151 +673,162 @@ class Timer:
 if __name__ == "__main__":
     print( 'Number of arguments:', len(sys.argv), 'arguments.')
     print( 'Argument List:', str(sys.argv))
-    t = Tk()
-    pp = "/Users/krol/bridge/kaarten_groot/"
-    # deal
-    allcards =  ['2R','3R','4R','5R','6R','7R','8R','9R','10R','JR','QR','KR','AR', 
-                 '2K','3K','4K','5K','6K','7K','8K','9K','10K','JK','QK','KK','AK',
-                 '2H','3H','4H','5H','6H','7H','8H','9H','10H','JH','QH','KH','AH',
-                 '2S','3S','4S','5S','6S','7S','8S','9S','10S','JS','QS','KS','AS']
-    diamonds = ['◆2','◆3','◆4','◆5','◆6','◆7','◆8','◆9','◆10','◆J','◆Q','◆K','◆A']
-    clubs    = ['♣2','♣3','♣4','♣5','♣6','♣7','♣8','♣9','♣10','♣J','♣Q','♣K','♣A']
-    spades   = ['♠2','♠3','♠4','♠5','♠6','♠7','♠8','♠9','♠10','♠J','♠Q','♠K','♠A']
-    hearts   = ['♥2','♥3','♥4','♥5','♥6','♥7','♥8','♥9','♥10','♥J','♥Q','♥K','♥A']
-    playcards = diamonds+clubs+hearts+spades
-    vcards = range(52)
-    dcards = dict(zip(vcards,allcards))    # library that links value to allcards
-    pcards = dict(zip(playcards,allcards)) # library that links playcards to allcards
-    deal = np.arange(52)
-    # determine how to play: no argument: random, integer argument: random with fixed seed, 'fx file' (with x=number) read hand number x from file named file
-    # e.g. ./bridge.py N f1 may18 plays N first deal from file "may182020"
-    playnumber = 1
-    dealer     = 'Z/OW'
-    if len(sys.argv) > 2: 
-        if sys.argv[2].startswith('f'):
-            playnumber = int(sys.argv[2][1:])
-            filen = sys.argv[3]
-            if os.path.exists(filen):
-                with open(filen,'r') as f:
-                    found = False
-                    ix = 0
-                    while not found:
-                        ix += 1
-                        if ix > 1000: sys.exit(f'play {playnumber} note found in file {filen}')
-                        line = f.readline()
-                        if line.find('Spel:') != -1:
-                            xplay = int(line[6:])
-                            if xplay == playnumber:   # right play found:
-                                dealer = f.readline()
-                                line = f.readline()
-                                deal = [int(i)-1 for i in line.split(',')]
-                                found = True
-                                print(dealer,playnumber)
-            else:
-                print("Error", "Input for play no found "+filen)
-        else:  # use seed:
-            random.seed(sys.argv[2])
+    # allow nextplay
+    nextplay  = True
+    while nextplay:
+        t = Tk()
+        pp = "/Users/krol/bridge/kaarten_groot/"
+        # deal
+        allcards =  ['2R','3R','4R','5R','6R','7R','8R','9R','10R','JR','QR','KR','AR', 
+                     '2K','3K','4K','5K','6K','7K','8K','9K','10K','JK','QK','KK','AK',
+                     '2H','3H','4H','5H','6H','7H','8H','9H','10H','JH','QH','KH','AH',
+                     '2S','3S','4S','5S','6S','7S','8S','9S','10S','JS','QS','KS','AS']
+        diamonds = ['◆2','◆3','◆4','◆5','◆6','◆7','◆8','◆9','◆10','◆J','◆Q','◆K','◆A']
+        clubs    = ['♣2','♣3','♣4','♣5','♣6','♣7','♣8','♣9','♣10','♣J','♣Q','♣K','♣A']
+        spades   = ['♠2','♠3','♠4','♠5','♠6','♠7','♠8','♠9','♠10','♠J','♠Q','♠K','♠A']
+        hearts   = ['♥2','♥3','♥4','♥5','♥6','♥7','♥8','♥9','♥10','♥J','♥Q','♥K','♥A']
+        playcards = diamonds+clubs+hearts+spades
+        vcards = range(52)
+        dcards = dict(zip(vcards,allcards))    # library that links value to allcards
+        pcards = dict(zip(playcards,allcards)) # library that links playcards to allcards
+        deal = np.arange(52)
+        # determine how to play: no argument: random, integer argument: random with fixed seed, 'fx file' (with x=number) read hand number x from file named file
+        # e.g. ./bridge.py N f1 may18 plays N first deal from file "may182020"
+        playnumber = 1
+        dealer     = 'Z/OW'
+        if len(sys.argv) > 2: 
+            if sys.argv[2].startswith('f'):
+                playnumber = int(sys.argv[2][1:])
+                filen = sys.argv[3]
+                if os.path.exists(filen):
+                    with open(filen,'r') as f:
+                        found = False
+                        ix = 0
+                        while not found:
+                            ix += 1
+                            if ix > 1000: sys.exit(f'play {playnumber} note found in file {filen}')
+                            line = f.readline()
+                            if line.find('Spel:') != -1:
+                                xplay = int(line[6:])
+                                if xplay == playnumber:   # right play found:
+                                    dealer = f.readline()
+                                    line = f.readline()
+                                    deal = [int(i)-1 for i in line.split(',')]
+                                    found = True
+                                    print(dealer,playnumber)
+                else:
+                    print("Error", "Input for play no found "+filen)
+            else:  # use seed:
+                random.seed(sys.argv[2])
+                random.shuffle(deal)
+                deal = deal.tolist()
+        else:   # no second argument: normal random
             random.shuffle(deal)
             deal = deal.tolist()
-    else:   # no second argument: normal random
-        random.shuffle(deal)
-        deal = deal.tolist()
 
-    nhand = deal[0:13]
-    ehand = deal[13:26]
-    shand = deal[26:39]
-    whand = deal[39:52]
-    nhand.sort(reverse=True)
-    ehand.sort(reverse=True)
-    shand.sort(reverse=True)
-    whand.sort(reverse=True)
-    # get card pictures:
-    cardsn = []
-    cardss = []
-    cardsw = []
-    cardse = []
-    for i in range(13):
-        cardsn.append(dcards[nhand[i]])
-        cardse.append(dcards[ehand[i]])
-        cardss.append(dcards[shand[i]])
-        cardsw.append(dcards[whand[i]])
-    # set visibility using tkinter IntVar
-    nvis = IntVar(value=0)
-    svis = IntVar(value=0)
-    evis = IntVar(value=0)
-    wvis = IntVar(value=0)
-    xhand = '-'
-    if len(sys.argv) > 1: xhand = sys.argv[1]
-    if xhand == 'N': nvis.set(1)
-    if xhand == 'O': evis.set(1)
-    if xhand == 'Z': svis.set(1)
-    if xhand == 'W': wvis.set(1)
+        nhand = deal[0:13]
+        ehand = deal[13:26]
+        shand = deal[26:39]
+        whand = deal[39:52]
+        nhand.sort(reverse=True)
+        ehand.sort(reverse=True)
+        shand.sort(reverse=True)
+        whand.sort(reverse=True)
+        # get card pictures:
+        cardsn = []
+        cardss = []
+        cardsw = []
+        cardse = []
+        for i in range(13):
+            cardsn.append(dcards[nhand[i]])
+            cardse.append(dcards[ehand[i]])
+            cardss.append(dcards[shand[i]])
+            cardsw.append(dcards[whand[i]])
+        # set visibility using tkinter IntVar
+        nvis = IntVar(value=0)
+        svis = IntVar(value=0)
+        evis = IntVar(value=0)
+        wvis = IntVar(value=0)
+        xhand = '-'
+        if len(sys.argv) > 1: xhand = sys.argv[1]
+        if xhand == 'N': nvis.set(1)
+        if xhand == 'O': evis.set(1)
+        if xhand == 'Z': svis.set(1)
+        if xhand == 'W': wvis.set(1)
 
-    # create list of images of each hand to be rendered on the canvas:
-    cin = []
-    cis = []
-    ciw = []
-    cie = []
-    for card in cardsn:
-        img = read_resize_img(pp+card+'.jpg',0.2)
-        cin.append(img)
-    for card in cardss:
-        img = read_resize_img(pp+card+'.jpg',0.2)
-        cis.append(img)
-    for card in cardsw:
-        img = read_resize_img(pp+card+'.jpg',0.2)
-        ciw.append(img)
-    for card in cardse:
-        img = read_resize_img(pp+card+'.jpg',0.2)
-        cie.append(img)
+        # create list of images of each hand to be rendered on the canvas:
+        cin = []
+        cis = []
+        ciw = []
+        cie = []
+        for card in cardsn:
+            img = read_resize_img(pp+card+'.jpg',0.2)
+            cin.append(img)
+        for card in cardss:
+            img = read_resize_img(pp+card+'.jpg',0.2)
+            cis.append(img)
+        for card in cardsw:
+            img = read_resize_img(pp+card+'.jpg',0.2)
+            ciw.append(img)
+        for card in cardse:
+            img = read_resize_img(pp+card+'.jpg',0.2)
+            cie.append(img)
 
-    # create canvas:
-    c = Canvas(t, width=1500, height=900, bg="Green")
-    c.bind("<Button-1>", lambda event: clicked_canvas())
-    c.pack()
-    
-    width = 70
-    height = 70
-    with open('players.txt','r') as f:
-        pics = []
-        for i in range(4):
-            line = f.readline().split()
-            picfile = pp+line[1].lower()+'.png'
-            img = Image.open(picfile)
-            img = img.resize((width,height), Image.ANTIALIAS)
-            pics.append(ImageTk.PhotoImage(img))
+        # create canvas:
+        c = Canvas(t, width=1500, height=900, bg="Green")
+        c.bind("<Button-1>", lambda event: clicked_canvas())
+        c.pack()
+        
+        width = 70
+        height = 70
+        with open('players.txt','r') as f:
+            pics = []
+            for i in range(4):
+                line = f.readline().split()
+                picfile = pp+line[1].lower()+'.png'
+                img = Image.open(picfile)
+                img = img.resize((width,height), Image.ANTIALIAS)
+                pics.append(ImageTk.PhotoImage(img))
 
-    playfield = create_playfield(c,pics,playnumber,dealer)
+        playfield = create_playfield(c,pics,playnumber,dealer)
 
-    visn = Checkbutton(c, text='N', variable=nvis, command = set_visibility)
-    if xhand == 'N' or xhand == 'A': visn.place(x = 1200, y = 180)
-    vise = Checkbutton(c, text='O', variable=evis, command = set_visibility)
-    if xhand == 'O' or xhand == 'A': vise.place(x = 1220, y = 200)
-    viss = Checkbutton(c, text='Z', variable=svis, command = set_visibility)
-    if xhand == 'Z' or xhand == 'A': viss.place(x = 1200, y = 220)
-    visw = Checkbutton(c, text='W', variable=wvis, command = set_visibility)
-    if xhand == 'W' or xhand == 'A': visw.place(x = 1180, y = 200)
+        visn = Checkbutton(c, text='N', variable=nvis, command = set_visibility)
+        if xhand == 'N' or xhand == 'A': visn.place(x = 1200, y = 180)
+        vise = Checkbutton(c, text='O', variable=evis, command = set_visibility)
+        if xhand == 'O' or xhand == 'A': vise.place(x = 1220, y = 200)
+        viss = Checkbutton(c, text='Z', variable=svis, command = set_visibility)
+        if xhand == 'Z' or xhand == 'A': viss.place(x = 1200, y = 220)
+        visw = Checkbutton(c, text='W', variable=wvis, command = set_visibility)
+        if xhand == 'W' or xhand == 'A': visw.place(x = 1180, y = 200)
 
-    play_info = logistics(c)
+        play_info = logistics(c)
 
-    north = hand(c,cin,cardsn,300,10,40,20, 0,60, 570 ,235,'N',nvis)
-    #add card names to the object for future better rendering:
-    #def __init__(self, c, cards, cardnames, x0, y0, dx, cdx, dy, cdy, playx, playy, hand, visible):
-        #c.create_rectangle(395, 235, 880, 672, outline="green4", fill="dark green", width=0)
-    north.cards = cardsn
-    south = hand(c,cis,cardss,300,680,40,20, 0,60, 570,457,'Z',svis)
-    south.cards = cardss
-    east = hand(c,cie,cardse,910,240,40,20, 0,70, 722,356,'O',evis)
-    east.cards = cardse
-    west = hand(c,ciw,cardsw,20,240,40, 20 ,0,70, 416,356,'W',wvis)
-    west.cards = cardsw
+        north = hand(c,cin,cardsn,300,10,40,20, 0,60, 570 ,235,'N',nvis)
+        #add card names to the object for future better rendering:
+        #def __init__(self, c, cards, cardnames, x0, y0, dx, cdx, dy, cdy, playx, playy, hand, visible):
+            #c.create_rectangle(395, 235, 880, 672, outline="green4", fill="dark green", width=0)
+        north.cards = cardsn
+        south = hand(c,cis,cardss,300,680,40,20, 0,60, 570,457,'Z',svis)
+        south.cards = cardss
+        east = hand(c,cie,cardse,910,240,40,20, 0,70, 722,356,'O',evis)
+        east.cards = cardse
+        west = hand(c,ciw,cardsw,20,240,40, 20 ,0,70, 416,356,'W',wvis)
+        west.cards = cardsw
 
-    # setup card selector:
-    card_selector = select_card(c,diamonds,clubs,hearts,spades)
-    # set_up history for undo-redo
-    history = undo_redo(c)
+        # setup card selector:
+        card_selector = select_card(c,diamonds,clubs,hearts,spades)
+        # set_up history for undo-redo
+        history = undo_redo(c)
 
-    timer = Timer(c)
+        timer = Timer(c)
 
-    t.lift()
-    t.mainloop()
+        t.lift()
+        t.mainloop()
+        if play_info.next_game: 
+            if len(sys.argv) > 2:
+                if sys.argv[2].startswith('f'):
+                    playnumber = int(sys.argv[2][1:]) + 1
+                    sys.argv[2] = 'f'+str(playnumber)
+            nextplay = True
+        else:
+            nextplay = False
