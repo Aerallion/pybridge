@@ -40,14 +40,16 @@ The next step is to press the "Laad spel" button.
 
 The rest should be self-explanatory! A few tips:
 
->> To remove a trick, or to proceed, click on the green canvas.
->> Once you want to claim all tricks as playing team, ask the "Master" to press "Claim"
->> After the game finsihed, you can click "Nakaarten".
->> With undo/redo you can undo or redo actions (mind the bugs!).
+> To remove a trick, or to proceed, click on the green canvas.
+> Once you want to claim all tricks as playing team, ask the "Master" to press "Claim"
+> After the game finsihed, you can click "Nakaarten".
+> With undo/redo you can undo or redo actions (mind the bugs!).
 
 A next game is started by pressing: "Volgende spel" (Master only).
 This will kill the existing windows and create fresh windows in which a new game can be played.
-Note that in mode "pbn" the scores will
+Note that in mode "pbn" the scores will appear in the unix window. This allows you to play tournements.
+
+Happy bridge! Feedback welcome.
 
 
 
