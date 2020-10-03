@@ -17,9 +17,13 @@ The system should respond with: listening on ('127.0.0.1', 2376)
 Subsequently, each player starts its own instance of the program:
 
 _North_: ./bridge.py N N
+
 _East_: ./bridge.py O N   
+
 _South_: ./bridge.py Z N
+
 _West_: ./bridge.py W N
+
 
 So, the first argument is the player (currently, we have Dutch setting, Z = south/zuid, O = east/oost).
 The second argument is the player that has control over the game, meaning that now **N** can load plays, claim tricks, etc.
@@ -33,7 +37,7 @@ With M = Master. To be kibitzer, you can type ./bridge.py A, which is only usefu
 Once everybody has a green screen, the "Master" (M, and in this case N) can load a game next to the button "Laad spel". There are three options.
 
 - type a number. The program will look at predefined games named "Spel 1", when you type "1". 
-- type x or X. A radnom deal will be generated.
+- type x or X. A random deal will be generated.
 - type pbnx, with "x" a number, normally between 1 and 40. This loads tournement games, retrieved from "www.vijnberg.nl".
 
 The next step is to press the "Laad spel" button.
@@ -41,9 +45,13 @@ The next step is to press the "Laad spel" button.
 The rest should be self-explanatory! A few tips:
 
 > To remove a trick, or to proceed, click on the green canvas.
+
 > Once you want to claim all tricks as playing team, ask the "Master" to press "Claim"
+
 > After the game finsihed, you can click "Nakaarten".
+
 > With undo/redo you can undo or redo actions (mind the bugs!).
+
 
 A next game is started by pressing: "Volgende spel" (Master only).
 This will kill the existing windows and create fresh windows in which a new game can be played.
