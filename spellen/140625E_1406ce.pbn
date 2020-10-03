@@ -1,0 +1,1161 @@
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK742.K7.Q4.A762 QJT8.AJ843.75.J5 65.9.KT982.KQT93 93.QT652.AJ63.84"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "5C"]
+[Result "11"]
+[Auction "N"]
+1S      Pass    1NT     Pass    
+2C      Pass    3C      Pass    
+3NT     Pass    5C      Pass    
+Pass    Pass    
+[Play "E"]
+D7
+*
+{Comment:
+2\C = Six cards (exceptionnally five only if maximum), 11-17 HCP.
+2NT = 11 HCP, with preferably a double \C stopper.
+3NT = Only 13 HCP, but the \S are robust.
+When you duck the 10 of \C, East insists with the 2, preference for \D.
+At trick three, you lead a \S to the dummy :
+A) West grabs the King and shifts to \D, thanks to his partner's signal. Your contract is doomed. One down if you put up the Ace, three down else.
+B) West ducks and East is forced to win the Ace : you have nine tricks.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:Q96.76.QJ.KT7432 K874.J9.A87654.A AJ5.KQ5.KT9.QJ65 T32.AT8432.32.98"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "E"]
+1D      1NT     Pass    3NT     
+Pass    Pass    Pass    
+[Play "W"]
+H4
+*
+{Comment:
+2\C = 11 HCP or more.
+2NT = 12-14 HCP.
+3\D = \D fit.
+3NT = I am not interested...
+You won't have any problem if the \C behave. But if the Jack is fourth in North, you'll have to fall back on \D. In order to take advantage of a possible Jack of \D second or bare, first cash King-Queen of \D. When the Jack drops, unblock the 10 and cash the \C for twelve tricks.
+Nine tricks only on a \S lead, but who can find it?
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:984.JT.K862.Q632 Q5.AQ72.AT94.AJ5 73.K984.QJ73.K98 AKJT62.653.5.T74"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[Auction "S"]
+Pass    2S      Pass    4S      
+Pass    Pass    Pass    
+[Play "N"]
+HJ
+*
+{Comment:
+2NT = This minor two-suiter was a bit weak for a direct 2NT. It's time now.
+4\C = The hand is nearly worth a jump to 5\C.
+Win the Ace of \S, ruff a \D, cross to the Ace of \H and ruff another \D. ruff a \S in the dummy to ruff a third \D with the 8. South overuffs but you are home, conceding only the Ace of \C. You could have made an overtrick by ruffing the third \D with the King, but then you would have been sorry for not bidding the slam.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:63.72.KT7632.A75 954.J854.9.KQ943 AQT8.AQ9.AQJ54.T KJ72.KT63.8.J862"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "6D"]
+[Result "12"]
+[Auction "W"]
+Pass    Pass    Pass    1D      
+Pass    3D      Pass    3H      
+Pass    4C      x       Pass    
+Pass    xx      Pass    4NT     
+Pass    5S      Pass    6D      
+Pass    Pass    Pass    
+[Play "W"]
+C6
+*
+{Comment:
+2\C = Landy, showing at least 5-4 in the majors.
+3\S = Invitational.
+West would have certainly led a \D honour, had he held Ace- King. Therefore he is marked with the rest of the points to justify his 1NT opening.
+Win the Ace of \H, ruff a \H and finesse the 10 of \S. Ruff another \H, finesse the Queen of \S, cash the Ace and the \H. Finally, lead a \C to the Ace and concede the King for eleven tricks.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:742.QJ4.JT84.Q72 Q93.KT3.AK93.JT6 5.9875.Q7652.953 AKJT86.A62..AK84"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "6NT"]
+[Result "12"]
+[Auction "N"]
+Pass    1D      Pass    1S      
+Pass    1NT     Pass    2C      
+Pass    2H      Pass    3S      
+Pass    4D      Pass    4NT     
+Pass    5D      Pass    5NT     
+Pass    6H      Pass    6NT     
+Pass    Pass    Pass    
+[Play "S"]
+H9
+*
+{Comment:
+X = Spoutnik, four+ cards in \H.
+4\S = Preemptive.
+5\C = If you think you can silence me...
+6\C = The Ace of \S and the \C honours are key cards.
+Win the Ace of \S and set about establishing \D at once. East wins the King et returns a trump; Unblock the Ace of \D, cross to the 9 of \C and ruff a \D. Unfortunately, they break 4-2 and you cannot get rid of your losing \H... Down one.
+The solution is simple : you must give up the \D finesse and play the Ace and the Queen. This way, you have enough entries to ruff two \D and cash the last \D.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:962.AJ853.9.AKQJ AKQT85.7.QJT.862 743.KT6.A8642.95 J.Q942.K753.T743"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[Auction "E"]
+1S      Pass    1NT     2H      
+2S      3H      Pass    4H      
+Pass    Pass    Pass    
+[Play "E"]
+SA
+*
+{Comment:
+X = Better than 1NT with these weak \D...
+2\S = Five cards, but 8 HCP only made of four queens, 2\S is enough.
+Count your losers : two \C, one \D, one \H (except if East holds K or Kx) You need to plan an elimination and throw-in endplay to force East to underlead the King of \D.
+Ruff the third \C, draw trumps in two rounds, ruff the last \C, finesse the Jack of \H, cash the Ace and exit in \H. East sadly leads a \D, just made...
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T9.AKT92.Q6543.4 J42.QJ.AK72.K932 Q8653.765.T9.J76 AK7.843.J8.AQT85"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "5C"]
+[Result "11"]
+[Auction "S"]
+Pass    1C      1H      2H      
+Pass    3C      Pass    3H      
+Pass    3S      Pass    5C      
+Pass    Pass    Pass    
+[Play "N"]
+HA
+*
+{Comment:
+Pass (East) = Reasonable not to raise \D with this King of \H of dubious value. 3\D = In spite of the vulnerability, West knows his partner has some values and his robust suit induces him to bid again. 3\H = Double is impossible...
+Two \D, two \H and two \C : South cannot escape two down against a good defense. Only a \S ruff beats 3\D.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJT97.763.A7.QJT A4.AT82.KT32.K76 832.9.J984.98432 K65.KQJ54.Q65.A5"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "12"]
+[Auction "W"]
+1H      1S      2S      Pass    
+2NT     Pass    3H      Pass    
+3S      Pass    4NT     Pass    
+5S      Pass    6H      Pass    
+Pass    Pass    
+[Play "N"]
+SQ
+*
+{Comment:
+2\D = Game forcing.
+2\S = One ace and a few points.
+4\H = Splinter, \C fit and \H shortness.
+6\C = Conclusion.
+Your contract is cold by ruffing two \H in dummy. That should not prevent you from trying to make an overtrick. You can if the \S suit breaks 4-3.
+Win the Ace of \D, cash the Ace of \S, lead a \C to the 8, ruff a \S with the King, cross to the 10 of \C and ruff a \S. Ruff a \H in dummy, ruff another \S, ruff your last \H and cash the last \S to discard the losing \D. Thirteen tricks.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KT.KJ865.732.AT2 QJ754.AT7.A94.Q8 A6.94.KT865.J763 9832.Q32.QJ.K954"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[Auction "N"]
+Pass    1S      Pass    2S      
+Pass    Pass    Pass    
+[Play "S"]
+H9
+*
+{Comment:
+3\C = Seven good cards, preemptive.
+4\D = \S and \D, at least 4-5.
+5\C = The sacrifice should be profitable.
+X = I do not want to play at the five level.
+Ruff the second \S and draw trumps in two rounds. Lead a \D to the King, cash the Ace of \H and exit in \H. The Ace of \D will set the contract, but just by one trick. A very good result for North-South as 4\S make easily but not 5\S.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AQ.AQT5.962.9843 T4.K93.KQJ75.KQ2 98652.864.A83.JT KJ73.J72.T4.A765"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "7"]
+[Auction "E"]
+1D      Pass    1S      Pass    
+1NT     Pass    Pass    Pass    
+[Play "S"]
+S8
+*
+{Comment:
+1NT = 12-14 HCP, balanced hand.
+North wins the Ace of \S and insists with the Jack, which you duck. South overtakes with the Queen and gives a third round, North discarding a low \D.
+You have six tricks. Where do you intend to find a seventh?
+Your best chance is a double finesse in \H. First, play to the 9. When it fails to North's 10, win the Ace of \D and finesse the Jack of \H. When it holds, you are home.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:82.Q9.KQJ753.K82 AK953.AK.64.JT73 JT74.87543.92.95 Q6.JT62.AT8.AQ64"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "S"]
+Pass    1C      1D      1S      
+Pass    1NT     Pass    2D      
+Pass    2NT     Pass    3NT     
+Pass    Pass    Pass    
+[Play "N"]
+DK
+*
+{Comment:
+With 12 HCP and both majors, you must open in fourth position.
+West considers bidding 2NT, but opts finally for 1NT only. In any case, no matter his bid, it will put an end to the sequence.
+The first problem is the card to play on the opening lead of the \S6.
+The declarer knows two cards higher than the 6 in South (rule of eleven), one of them being probably the 10 or the Jack. Therefore, the Queen seems the right card. When it holds, the declarer can make up to nine tricks thanks to the 3-3 \D break.
+If West plays low on the opening lead, South's 8 will force the Ace and the declarer will be limited to eight tricks. So 150, 120 or 90 (if North underleads the King of \S and West does not dare to put up the Queen)?
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:AJ7.K.AT84.Q9854 T92.Q653.Q9752.3 86543.JT97.3.KJ7 KQ.A842.KJ6.AT62"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[Auction "W"]
+1NT     Pass    Pass    Pass    
+[Play "N"]
+C5
+*
+{Comment:
+1NT = 16-18 HCP in intervention.
+Win the Ace of \S and continue with the King of \D.
+West wins and insists in \S.
+Win the King and cash four rounds of \D, watching West's discards carefully. As a matter of fact, you know he holds both the King of \H and the King of \C for his opening.
+A) If West does not discard one single \S, one of of his King is now bare : cash both aces and claim nine tricks.
+B) West discards one \S : throw him in by playing the \S5. He will have to underlead either of his Kings.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AT954.A8.843.A83 Q8.JT94.J765.KJ4 K76.K765.AQ.T765 J32.Q32.KT92.Q92"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+1S      Pass    2C      Pass    
+2S      Pass    4S      Pass    
+Pass    Pass    
+[Play "E"]
+HJ
+*
+{Comment:
+2\S = Three or four cards, 6-10 SP.
+4\C and 4\D = Controls.
+Cover the \H10 with the \HJ, and ruff East's \HQ. What now?
+Lead a \D to the King and East's Ace.
+You now know that the King of \S lies in West, because East, a passed hand, has already shown ten points : Ace-Queen of \H and the Ace of \D.
+You have just one thing to do : cross your fingers and cash the Ace of \S...
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJ7653.A7632.J6. A92.KQ98.T32.A32 8.5.Q75.KQT98754 QT4.JT4.AK984.J6"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4CX"]
+[Result "9"]
+[Auction "E"]
+1C      4C      x       Pass    
+Pass    Pass    
+[Play "W"]
+DA
+*
+{Comment:
+2NT = 20-21 HCP.
+6NT = 34-35 HCP in the line, it should be enough.
+North wins the King of \H and insists in the suit. Despite your thirty-five points, you have only eleven sure tricks. Before cashing the black suits, it costs nothing to cash the red to get to know more about distributions. North discards a \D on the last \H. Will you now try \S or \C? You must start with \S, because, thanks to the 9, \C offer more possibilities than the \S. When South discards on the third \S, you know North's exact shape : four \S, two \H, four \D and three \C. Cash Ace, King and Queen of \C and claim twelve tricks.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:Q9.KQT72.J6.J543 8643.9.K542.K986 AJT7.AJ43.Q97.Q2 K52.865.AT83.AT7"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "8"]
+[Auction "S"]
+1D      Pass    1H      Pass    
+2H      Pass    Pass    Pass    
+[Play "E"]
+S6
+*
+{Comment:
+2\D = Major two-suiter, at least 5-5.
+3\H = Game proposal.
+5\D = Hoping game will make in either side.
+North shifts to the Queen of \S after two \C tricks.
+If the \D break 2-1, the play will be easy. If South holds Q107, you can capture the Queen by passing the Jack. But how can you know?
+Remember the bidding. South bid 3\H, because he has fewer or as many \S. On the other hand, you know North has only five \H and therefore six \S. His distribution is 6502. Win the King of \S and pass the Jack of \D if South does not cover. If he does, cross to the Jack of \C to finesse the 9 of \D.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:54.KQ4.J4.AKJT53 KJ986.7.QT96.964 732.T9832.532.Q2 AQT.AJ65.AK87.87"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Auction "W"]
+1D      2C      Pass    Pass    
+x       Pass    3S      Pass    
+4S      Pass    Pass    Pass    
+[Play "S"]
+CQ
+*
+{Comment:
+3\C = Four-card \S raise, 11 SP or more.
+East leads the 2 of \C, which looks very much like a singleton.
+Win the Ace, eliminate \S with the finesse and exit in \H.
+West cashes the Jack, then the King and shifts to \D. Win the Ace and exit in \D.
+A) East gains the lead : he must play ruff and discard.
+B) West gains the lead : if he tries to exit with the Queen of \C, duck it. On the following trick, he will have to play into the \C tenace or a red suit, ruff and discard.
+One down for a very good result (50) for North-South as 4\H make in East-West (620).
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K6.AQ.AK765.8765 T85.KJ974.J9.KJ2 AQ7.65.843.AT943 J9432.T832.QT2.Q"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "E"]
+H7
+*
+{Comment:
+2\S = 8-10 SP, three or four cards.
+X = Trial bid, 3\S would be purely competitive.
+Ruff the third \H high, noting the 6-2 \H break.
+Draw trumps, noting the 3-1 break and continue with the King of \C.
+North wins the Ace and plays another \C.
+When North follows on the third \C, you know his exact distribution : 3613. Cash the Ace of \D and finesse the Jack.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:86.KT7.QJT43.872 QT952.AQ.A9.KT63 743.J942.85.AQJ9 AKJ.8653.K762.54"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[Auction "E"]
+1S      Pass    3C      Pass    
+4S      Pass    Pass    Pass    
+[Play "S"]
+S3
+*
+{Comment:
+What can South's holding be to lead the 10 of \S?
+- Either 10 9 8 x,
+- Or Queen 10 9 x (x),
+- Or King 10 9 x (x).
+In all cases, you must put up the Ace in order to block the suit. Then pass the Jack of \H.
+South wins the King and insists in \S. As expected, the suit is blocked and you can claim nine tricks.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:A54.JT974.87.K83 KQJ76.86.AKJ3.Q7 9832.532.92.AJT2 T.AKQ.QT654.9654"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[Auction "S"]
+Pass    Pass    Pass    1S      
+Pass    2D      Pass    3D      
+Pass    3NT     Pass    Pass    
+Pass    
+[Play "N"]
+HJ
+*
+{Comment:
+3\D = Seven good cards and nothing else, preemptive...
+South wins the Ace of \D and his \D continuation is ruffed by North. The Ace of and another \S follow. Draw trumps, noting that the 4-1 break and count North's distribution : seven \S (South did not raise), four \H, one \D and consequently only one \C. No need to play the Queen of \C, play the 4 instead and claim your contract when the King shows up.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:KJ5.A653.KT2.J74 98.98.Q763.AT852 Q632.KJ74.J85.Q9 AT74.QT2.A94.K63"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[Auction "W"]
+1C      Pass    2C      Pass    
+Pass    x       Pass    2H      
+Pass    Pass    Pass    
+[Play "W"]
+C3
+*
+{Comment:
+1NT = 15-17 HCP.
+3NT = 9-15 HCP.
+After the \S lead, your task is to find nine tricks without surrendering the lead.
+Win the King of \S, cross to the King of \C and lead the Jack of \D, pretending to finesse against the Queen.
+A) West ducks : you have eight tricks and the successful \H finesse will give you the ninth.
+B) The rule of eleven told West that you have no card higher than the 7, so that his partner's \S are high : he grabs the Ace and four \S tricks set your contract.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AQ.K643.A.AQT982 85.AQ972.J963.K6 J642.T.Q8542.J73 KT973.J85.KT7.54"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3C"]
+[Result "9"]
+[Auction "N"]
+1C      1H      Pass    2H      
+3C      Pass    Pass    Pass    
+[Play "E"]
+S8
+*
+{Comment:
+3\H = 16-18 SP.
+4\H = South is a bit short to consider a slam.
+After eliminating a \C or a \H lead (with Jx), and a \S lead (under Dxx), West opts for the \D lead.
+The declarer wins the Ace and leads a \C to the Queen. East must resist the temptation of a trump return, as he knows that his partner will overruff \C. Since \S are not appealing, he insists in \C.
+A) South tries to ruff a \C : West overruffs with the Jack and returns a \D, ruffed in dummy. The declarer ruffs the last \C with the King, draws trumps and the \S finesse fails for ten tricks only.
+B) South finesses the Jack of \S : West wins the Queen and forces dummy to ruff a \D. South then draws trumps and he can make one overtrick thanks to a ruffing finesse in \C, provided he kept the \S communications.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KQT8.87.732.K862 J54.AKT943.AJ5.7 9.J5.KQT96.AT953 A7632.Q62.84.QJ4"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[Auction "E"]
+1H      2NT     3H      4C      
+4H      Pass    Pass    Pass    
+[Play "S"]
+DK
+*
+{Comment:
+2\C = "Roudi" (Check-back Stayman).
+2NT = Maximum, two cards in \S.
+In 3NT, East must duck \H twice, to try to break North-South's communications. A careful South will follow with the King under the Ace, to signal his preference for \D. North will then shift to \D after the King of \S to set the contract by two tricks.
+In 4\S, wich can be reached if South overcalls 1\H, also on a \H lead, West may bring his contract home if he guesses that the King of \S is off side. He ducks the first \H and set about knocking off the Ace of \D. South wins on the second round and plays another \H. At this stage, the declarer must renounce the \S finesse to avoid a \D ruff. Very difficult...
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:KQJ74.82.85.AQT3 A952.JT9.AK93.74 T83.754.QJT4.962 6.AKQ63.762.KJ85"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[Auction "S"]
+Pass    1H      1S      x       
+Pass    2C      Pass    4H      
+Pass    Pass    Pass    
+[Play "N"]
+SK
+*
+{Comment:
+2NT = Trial bid.
+3\H = Minimum.
+Opening leads under a Jack or a Queen are ill-advided against a suit contract, the King of \C, behind a strong declarer, is too dangerous, so that a neutral trump lead is better.
+Duck a \S at trick two. Win the trump return and ruff a \S. You will still concede two \C and the King of \H for just made.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:JT984.AQ.KT7.974 32.32.9832.KJ832 AKQ5.76.AQJ.AT65 76.KJT9854.654.Q"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "6S"]
+[Result "12"]
+[Auction "W"]
+3H      Pass    Pass    x       
+Pass    4S      Pass    5S      
+Pass    6H      Pass    6S      
+Pass    Pass    Pass    
+[Play "E"]
+H3
+*
+{Comment:
+X = Takeout.
+1\H = 0-7 HCP.
+2\H = 18-20 SP.
+4\H = Maximum of the minimum, furthermore you have a fifth \H.
+North makes the first two tricks in \C and gives a third round. How should you handle the trumps after ruffing the \C return?
+After North's opening, you know he has at least one \H honour. Cross to the King of \S and pass the 10 of \H. When South's King show up, you know you must repeat the finesse, after crossing back to the closed hand thanks to the King of \D.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:3.Q83.KQ74.AQJ62 7.AKT9642.J85.73 AKQT642.J7.2.T95 J985.5.AT963.K84"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[Auction "N"]
+1C      3H      3S      Pass    
+3NT     Pass    4S      Pass    
+Pass    Pass    
+[Play "W"]
+H5
+*
+{Comment:
+1NT = 15-17 HCP.
+3NT = 9-15 HCP.
+With fourteen points, West has been unable to take part in the bidding. Now he must try to beat the contract. When the dummy comes down, he understands that the contract can be beaten if the declarer has only two \C. His objective is to "kill" the dummy to prevent the exploitation of its \C.
+He wins the Ace of \D and shifts to the King of \H to blow dummy's Ace. After this "Merrimac coup", his partner's 2 of \C tells him that the declarer has actually only two \C and ducking once beats the contract. The declarer is unable to make more than eight tricks : two \S, three \H, two \D and one \C.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:8642.A743.63.A82 AJ7.98.985.QJT65 5.KJ62.AKQJT4.73 KQT93.QT5.72.K94"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Auction "E"]
+Pass    1D      1S      x       
+2S      4H      Pass    Pass    
+Pass    
+[Play "W"]
+SK
+*
+{Comment:
+3\D = Seven good cards, preemptive.
+X = Takeout.
+4\D = To propose a sacrifice.
+Ruff the second \D and lead a \S to the Ace. When East discards, continue with the King of \C. West wins and exits in \C. Cash the King of \S, the last \C and exit in \S. West is forced to handle \H :
+A) He plays the \H5 : win East's Jack with the Ace and finesse against West's Queen.
+B) A shrewd West returns the Queen of \H : you must guess who has the Jack...
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:87.J763.7654.JT2 AQT4.KQ.AK82.764 K9632.84.QJT.AK9 J5.AT952.93.Q853"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "S"]
+1S      Pass    Pass    2NT     
+Pass    3D      Pass    3H      
+Pass    3NT     Pass    Pass    
+Pass    
+[Play "S"]
+DQ
+*
+{Comment:
+South's 2\H invites to game but North declines after devaluating the bare \SQJ, of dubious value.
+With bare Ace-King, lead the King.
+West will follow with the 8 on the second roud to show his interest for a \D return. After the Ace of \D, you ruff the \S return with the 10 and East overruffs with the Jack. You will then have to guess the position of the \H to make your contract. In fact, East would probably not have played this way had he held \HQJx.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:75.KQ94.AJ76.AQ4 AT82.32.9432.J92 6.JT765.KQT5.765 KQJ943.A8.8.KT83"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "9"]
+[Auction "W"]
+1S      x       3S      4H      
+4S      x       Pass    Pass    
+Pass    
+[Play "N"]
+HK
+*
+{Comment:
+With a ten-card fit and King-Queen in partner's opening, bidding the game is mandatory.
+Count your losers : one \S (with a 2-1 break), one \H, two \D. The lead of the 10 of \D, with the 9 in dummy, shows that South has a doubleton. Your only chance is to find the Ace of \H in South. South may also err and "forget" to put up the Ace of \H.
+Duck the first \D and cross to the Ace of \S to lead your sole \H. South goes up with the Ace but he cannot pass the lead to his partner. As a matter of fact, you knew for sure that the Ace of \H was in South' hand because North would have overcalled 1\D, had he held this Ace.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "29"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AJT9652.94.JT3.J KQ.K72.K95.AKT64 873.AQ85.A762.95 4.JT63.Q84.Q8732"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+3S      3NT     4S      Pass    
+Pass    Pass    
+[Play "E"]
+CA
+*
+{Comment:
+4\C = Splinter, four-card raise and \C shortness.
+West shifts to \D after the first two tricks in \S.
+Win the Ace and cash Ace-King of \H. When East discards, finesse the Queen of \C. West wins the King and plays a third round of \S, ruff and discard. Ruff in the closed hand and cash out the \C. When West ruffs, overuff with the Queen, cross to the Jack of \H and claim.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "30"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:64.86.Q9643.AKJ8 AQ9.QJ92.AJT2.T2 T853.A53.K5.Q965 KJ72.KT74.87.743"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[Auction "E"]
+1D      Pass    1H      Pass    
+2H      Pass    Pass    2NT     
+x       3C      3H      Pass    
+Pass    Pass    
+[Play "N"]
+CA
+*
+{Comment:
+1\S = Five cards or more, if such is your system.
+2\S = Six cards.
+3\S = Not an easy bid but you have an eight-card fit.
+One loser in each suit : just made.
+If you allowed South to play 3\H, your'll get a poor score...
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "31"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K954.K8.KT43.Q74 32.Q932.972.T932 AQJT6.T765..A865 87.AJ4.AQJ865.KJ"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Auction "S"]
+1S      2D      3S      Pass    
+4S      Pass    Pass    Pass    
+[Play "W"]
+S8
+*
+{Comment:
+2\D = Third suit forcing, with or without \D, asking partner to describe his hand, giving priority to a three-card \S fit.
+3\D = Natural, no three cards in \S.
+5\C = With 5-4 or 6-4 distribution in West, 3NT is probably not the best contract.
+Eleven tricks are easy in \C, with the Ace of \H on side. Concede the two red aces, draw trumps in two rounds and cross-ruff the rest of the tricks.
+In 3NT, on a \H lead, nine tricks seem easy but the declarer may decide wrongly if North ducks smoothly when a \D is led to the King. He may give up the \S finesse and lead another \D to the Queen.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "32"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:842.87.A853.QJT3 A5.KQJT62.T4.AK9 QJT6.A4.K962.864 K973.953.QJ7.752"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Auction "W"]
+Pass    Pass    1H      Pass    
+2H      Pass    4H      Pass    
+Pass    Pass    
+[Play "S"]
+SQ
+*
+{Comment:
+2\H = Six good cards, 6-10 HCP.
+X = The hand is too weak to bid 2\S.
+4\H = Preemptive.
+4\S = The least West could do...
+West follows with the Jack of \H on the first trick. For North, his partner's 7 of \H can come from RV75 or from R87. He continues with the Queen, and, when it holds, shifts to the Queen of \C. Anyway, no matter North's return, with the bad \D break, West had no means to make his contract. Normally a good result for East-West because 4\H easily make in North-South.
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "33"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A82.T2.A63.AKQ52 QJT74.J754.T42.6 65.A9863.KQ7.873 K93.KQ.J985.JT94"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1NT     Pass    2D      Pass    
+2H      Pass    3NT     Pass    
+Pass    Pass    
+[Play "E"]
+SQ
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "34"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:Q9854.T854.K94.T K7.J.AQJ83.AK762 AT3.KQ32.7652.J8 J62.A976.T.Q9543"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "5C"]
+[Result "11"]
+[Auction "E"]
+1D      Pass    1H      Pass    
+3C      Pass    5C      Pass    
+Pass    Pass    
+[Play "S"]
+HK
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "35"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KJT9.842.A763.T2 A7.AT.842.Q76543 8432.K973.JT9.AJ Q65.QJ65.KQ5.K98"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3C"]
+[Result "9"]
+[Auction "S"]
+Pass    1C      Pass    3C      
+Pass    Pass    Pass    
+[Play "N"]
+H2
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "36"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:Q974.A842.QJ7.A8 82.K93.T6.KJ7543 AK63.T65.9842.Q2 JT5.QJ7.AK53.T96"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[Auction "W"]
+Pass    1D      Pass    1S      
+Pass    2S      Pass    Pass    
+Pass    
+[Play "W"]
+DA
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "37"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:43.AKJT84.T62.K9 KJT952.3.A84.T73 AQ.Q95.J973.A642 876.762.KQ5.QJ85"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[Auction "N"]
+1H      2S      x       Pass    
+3H      Pass    4H      Pass    
+Pass    Pass    
+[Play "E"]
+C3
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "38"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J97.Q7652.4.A764 86.AT3.AQJ8.KT32 AKQT52.9.9763.85 43.KJ84.KT52.QJ9"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4SX"]
+[Result "8"]
+[Auction "E"]
+1D      2S      x       4S      
+x       Pass    Pass    Pass    
+[Play "W"]
+S3
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "39"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:QJ652.65.T4.QJ94 T973.K42.AJ753.8 A4.Q97.K862.AT62 K8.AJT83.Q9.K753"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "8"]
+[Auction "S"]
+1D      1H      1S      2H      
+Pass    Pass    Pass    
+[Play "N"]
+DT
+*
+{Comment:
+
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "40"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:73.K763.K.QT8632 T9652.AQJ5.A.AK7 AKQ.T92.J6432.J9 J84.84.QT9875.54"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[Auction "W"]
+Pass    Pass    1S      Pass    
+Pass    2C      2H      x       
+2S      Pass    Pass    Pass    
+[Play "S"]
+SA
+*
+{Comment:
+
+}
+

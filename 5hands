@@ -1,0 +1,5 @@
+./bridge.py N  &
+./bridge.py O  &
+./bridge.py Z  &
+./bridge.py W  &
+./bridge.py A  &

@@ -1,0 +1,2043 @@
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AK742.K7.Q4.A762 QJT8.AJ843.75.J5 65.9.KT982.KQT93 93.QT652.AJ63.84"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "5C"]
+[Result "11"]
+[Auction "N"]
+1S      Pass    1NT     Pass    
+2C      Pass    3C      Pass    
+3NT     Pass    5C      Pass    
+Pass    Pass    
+[Play "E"]
+D7
+*
+{Comment:
+2\C = Six cards (exceptionnally five only if maximum), 11-17 HCP.
+2NT = 11 HCP, with preferably a double \C stopper.
+3NT = Only 13 HCP, but the \S are robust.
+When you duck the 10 of \C, East insists with the 2, preference for \D.
+At trick three, you lead a \S to the dummy :
+A) West grabs the King and shifts to \D, thanks to his partner's signal. Your contract is doomed. One down if you put up the Ace, three down else.
+B) West ducks and East is forced to win the Ace : you have nine tricks.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     800       0    100       0      12      5 
+     1     550       0     99       0      10     -2 
+     1     530       0     99       0       9     -2 
+     5     500       0     98       1       9     -3 
+    17     420       0     96       3       7     -5 
+    79     400       0     85      14       7     -5 
+    17     300       0     74      25       5     -7 
+     1     200       0     72      27       2     -9 
+    15     170       0     71      28       2    -10 
+    57     150       0     63      36       1    -10 
+    17     140       0     54      45       1    -10 
+     5     130       0     52      47       0    -10 
+    10     120       0     50      49       0    -10 
+     3     110       0     49      50       0    -10 
+    36     100       0     44      55      -1    -11 
+     9      90       0     39      60      -1    -11 
+    28      50       0     35      64      -2    -11 
+    65       0      50     25      74      -5    -12 
+    67       0     100     10      89      -6    -12 
+    10       0     140      1      98      -6    -12 
+     2       0     150      0      99      -7    -13 
+     1       0     200      0      99      -8    -13 
+     1       0     530      0     100     -12    -15 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:Q96.76.QJ.KT7432 K874.J9.A87654.A AJ5.KQ5.KT9.QJ65 T32.AT8432.32.98"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "E"]
+1D      1NT     Pass    3NT     
+Pass    Pass    Pass    
+[Play "W"]
+H4
+*
+{Comment:
+2\C = 11 HCP or more.
+2NT = 12-14 HCP.
+3\D = \D fit.
+3NT = I am not interested...
+You won't have any problem if the \C behave. But if the Jack is fourth in North, you'll have to fall back on \D. In order to take advantage of a possible Jack of \D second or bare, first cash King-Queen of \D. When the Jack drops, unblock the 10 and cash the \C for twelve tricks.
+Nine tricks only on a \S lead, but who can find it?
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1100       0    100       0      14     11 
+     1     950       0     99       0      13      8 
+     1     800       0     99       0      12      5 
+     1     710       0     99       0      11      3 
+     3     660       0     98       1      10      2 
+    77     630       0     90      10      10      1 
+    48     600       0     76      24      10      0 
+     5     500       0     70      29       8     -3 
+     5     300       0     69      31       4     -7 
+     1     250       0     68      31       2     -8 
+     1     210       0     68      31       1     -9 
+     2     200       0     67      32       1     -9 
+    16     180       0     65      34       0     -9 
+    26     150       0     61      39      -1    -10 
+    57     130       0     51      48      -1    -10 
+     1     120       0     45      54      -2    -10 
+    10     110       0     44      55      -2    -10 
+    23     100       0     40      59      -2    -11 
+    29      50       0     34      65      -3    -11 
+     2       0      90     31      68      -6    -12 
+    35       0     100     27      73      -7    -12 
+     7       0     110     22      77      -7    -12 
+     2       0     140     21      78      -7    -12 
+    32       0     200     17      82      -9    -13 
+    59       0     300      7      92     -10    -14 
+     4       0     400      0      99     -11    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:984.JT.K862.Q632 Q5.AQ72.AT94.AJ5 73.K984.QJ73.K98 AKJT62.653.5.T74"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[Auction "S"]
+Pass    2S      Pass    4S      
+Pass    Pass    Pass    
+[Play "N"]
+HJ
+*
+{Comment:
+2NT = This minor two-suiter was a bit weak for a direct 2NT. It's time now.
+4\C = The hand is nearly worth a jump to 5\C.
+Win the Ace of \S, ruff a \D, cross to the Ace of \H and ruff another \D. ruff a \S in the dummy to ruff a third \D with the 8. South overuffs but you are home, conceding only the Ace of \C. You could have made an overtrick by ruffing the third \D with the King, but then you would have been sorry for not bidding the slam.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     300       0    100       0      12     14 
+     7     200       0     99       0      12     13 
+   119     100       0     85      14      11     12 
+    15       0     140     70      29       6     10 
+     3       0     150     68      31       6     10 
+    12       0     170     66      33       6     10 
+     6       0     180     64      35       6     10 
+     4       0     200     63      36       5      9 
+     1       0     210     62      37       5      9 
+    15       0     600     61      39      -5      1 
+   177       0     620     39      60      -6      0 
+    51       0     630     14      85      -6      0 
+    22       0     650      6      93      -6     -1 
+    17       0     660      1      98      -6     -1 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:63.72.KT7632.A75 954.J854.9.KQ943 AQT8.AQ9.AQJ54.T KJ72.KT63.8.J862"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "6D"]
+[Result "12"]
+[Auction "W"]
+Pass    Pass    Pass    1D      
+Pass    3D      Pass    3H      
+Pass    4C      x       Pass    
+Pass    xx      Pass    4NT     
+Pass    5S      Pass    6D      
+Pass    Pass    Pass    
+[Play "W"]
+C6
+*
+{Comment:
+2\C = Landy, showing at least 5-4 in the majors.
+3\S = Invitational.
+West would have certainly led a \D honour, had he held Ace- King. Therefore he is marked with the rest of the points to justify his 1NT opening.
+Win the Ace of \H, ruff a \H and finesse the 10 of \S. Ruff another \H, finesse the Queen of \S, cash the Ace and the \H. Finally, lead a \C to the Ace and concede the King for eleven tricks.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1440       0    100       0      13      2 
+     2    1390       0     99       0      13      1 
+    60    1370       0     92       7      13      0 
+     1     920       0     85      14       8    -10 
+     4     690       0     85      14       3    -12 
+    13     660       0     83      16       2    -12 
+    23     630       0     79      20       1    -12 
+   113     620       0     64      35       1    -13 
+   147     600       0     35      64       0    -13 
+     1     500       0     18      81      -3    -13 
+     1     210       0     18      81      -9    -15 
+     1     200       0     18      81      -9    -15 
+     2     180       0     17      82      -9    -15 
+    21     170       0     15      84     -10    -15 
+    11     150       0     11      88     -10    -15 
+    42       0     100      5      94     -12    -16 
+     4       0     200      0      99     -13    -17 
+     1       0     300      0     100     -14    -17 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:742.QJ4.JT84.Q72 Q93.KT3.AK93.JT6 5.9875.Q7652.953 AKJT86.A62..AK84"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "6NT"]
+[Result "12"]
+[Auction "N"]
+Pass    1D      Pass    1S      
+Pass    1NT     Pass    2C      
+Pass    2H      Pass    3S      
+Pass    4D      Pass    4NT     
+Pass    5D      Pass    5NT     
+Pass    6H      Pass    6NT     
+Pass    Pass    Pass    
+[Play "S"]
+H9
+*
+{Comment:
+X = Spoutnik, four+ cards in \H.
+4\S = Preemptive.
+5\C = If you think you can silence me...
+6\C = The Ace of \S and the \C honours are key cards.
+Win the Ace of \S and set about establishing \D at once. East wins the King et returns a trump; Unblock the Ace of \D, cross to the 9 of \C and ruff a \D. Unfortunately, they break 4-2 and you cannot get rid of your losing \H... Down one.
+The solution is simple : you must give up the \D finesse and play the Ace and the Queen. This way, you have enough entries to ruff two \D and cash the last \D.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     150       0    100       0      14     15 
+    29      50       0     96       3      14     14 
+     1       0     170     93       6      12     13 
+     1       0     200     93       6      12     13 
+     1       0     230     92       7      12     13 
+     1       0     260     92       7      12     12 
+     1       0     420     92       7      10     11 
+     2       0     450     92       7      10     11 
+     1       0     460     91       8      10     11 
+    51       0     480     85      14       9     11 
+     8       0     490     79      20       9     11 
+    12       0     510     77      22       9     10 
+     2       0     520     75      24       9     10 
+     1       0     710     75      24       5      7 
+   223       0     980     50      49      -3      0 
+    35       0     990     21      78      -3      0 
+    56       0    1010     11      88      -3     -1 
+     4       0    1020      4      95      -4     -1 
+    17       0    1510      2      98     -12    -11 
+     1       0    1520      0     100     -12    -11 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:962.AJ853.9.AKQJ AKQT85.7.QJT.862 743.KT6.A8642.95 J.Q942.K753.T743"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[Auction "E"]
+1S      Pass    1NT     2H      
+2S      3H      Pass    4H      
+Pass    Pass    Pass    
+[Play "E"]
+SA
+*
+{Comment:
+X = Better than 1NT with these weak \D...
+2\S = Five cards, but 8 HCP only made of four queens, 2\S is enough.
+Count your losers : two \C, one \D, one \H (except if East holds K or Kx) You need to plan an elimination and throw-in endplay to force East to underlead the King of \D.
+Ruff the third \C, draw trumps in two rounds, ruff the last \C, finesse the Jack of \H, cash the Ace and exit in \H. East sadly leads a \D, just made...
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     3     800       0     99       0      12      9 
+     2     630       0     99       0      11      5 
+     5     590       0     98       1      10      5 
+     1     530       0     97       2       9      3 
+     3     500       0     97       2       9      2 
+     1     450       0     96       3       8      1 
+    66     420       0     89      10       7      0 
+     4     300       0     81      18       5     -3 
+     1     230       0     81      19       3     -5 
+    31     200       0     77      22       3     -6 
+    39     170       0     69      30       2     -6 
+    87     140       0     55      44       1     -7 
+     1     110       0     45      54       0     -7 
+    41     100       0     41      58       0     -8 
+   106       0      50     24      75      -4    -10 
+    27       0     100      9      90      -5    -11 
+    19       0     110      4      95      -6    -11 
+     8       0     140      1      98      -6    -11 
+     3       0     150      0      99      -6    -11 
+     1       0     300      0     100      -9    -12 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T9.AKT92.Q6543.4 J42.QJ.AK72.K932 Q8653.765.T9.J76 AK7.843.J8.AQT85"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "5C"]
+[Result "11"]
+[Auction "S"]
+Pass    1C      1H      2H      
+Pass    3C      Pass    3H      
+Pass    3S      Pass    5C      
+Pass    Pass    Pass    
+[Play "N"]
+HA
+*
+{Comment:
+Pass (East) = Reasonable not to raise \D with this King of \H of dubious value. 3\D = In spite of the vulnerability, West knows his partner has some values and his robust suit induces him to bid again. 3\H = Double is impossible...
+Two \D, two \H and two \C : South cannot escape two down against a good defense. Only a \S ruff beats 3\D.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+    11     300       0     98       1      10     14 
+    17     200       0     95       4       8     13 
+     2     110       0     93       6       7     12 
+   154     100       0     76      23       6     12 
+     2       0      90     59      41       2     11 
+     3       0     100     58      41       2     11 
+     5       0     110     57      42       2     10 
+     7       0     120     56      43       1     10 
+    77       0     130     46      53       1     10 
+     1       0     140     38      61       1     10 
+    23       0     150     35      64       0     10 
+     1       0     180     32      67      -1      9 
+    15       0     200     31      68      -1      9 
+     1       0     400     29      70      -6      5 
+     5       0     500     28      71      -8      3 
+    62       0     600     21      78     -10      0 
+     1       0     620     14      85     -10     -1 
+    45       0     630      9      90     -10     -1 
+    11       0     660      2      97     -11     -2 
+     2       0     690      1      98     -11     -3 
+     3       0     800      0      99     -12     -5 
+     2       0    1100      0      99     -14    -11 
+     1       0    1700      0     100     -17    -15 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:QJT97.763.A7.QJT A4.AT82.KT32.K76 832.9.J984.98432 K65.KQJ54.Q65.A5"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "6H"]
+[Result "12"]
+[Auction "W"]
+1H      1S      2S      Pass    
+2NT     Pass    3H      Pass    
+3S      Pass    4NT     Pass    
+5S      Pass    6H      Pass    
+Pass    Pass    
+[Play "N"]
+SQ
+*
+{Comment:
+2\D = Game forcing.
+2\S = One ace and a few points.
+4\H = Splinter, \C fit and \H shortness.
+6\C = Conclusion.
+Your contract is cold by ruffing two \H in dummy. That should not prevent you from trying to make an overtrick. You can if the \S suit breaks 4-3.
+Win the Ace of \D, cash the Ace of \S, lead a \C to the 8, ruff a \S with the King, cross to the 10 of \C and ruff a \S. Ruff a \H in dummy, ruff another \S, ruff your last \H and cash the last \S to discard the losing \D. Thirteen tricks.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     480       0    100       0      14     16 
+     1     450       0     99       0      14     16 
+     5     100       0     99       0      11     14 
+    19      50       0     96       3      11     14 
+     1       0     130     94       5       8     13 
+     1       0     150     94       6       7     13 
+     1       0     200     93       6       6     13 
+     9       0     420     92       7       1     11 
+     6       0     430     91       9       1     11 
+   206       0     450     67      32       0     11 
+     2       0     460     44      55       0     11 
+   160       0     480     26      73      -1     11 
+     1       0     800      8      91      -8      5 
+    37       0     980      4      96     -11      0 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:KT.KJ865.732.AT2 QJ754.AT7.A94.Q8 A6.94.KT865.J763 9832.Q32.QJ.K954"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[Auction "N"]
+Pass    1S      Pass    2S      
+Pass    Pass    Pass    
+[Play "S"]
+H9
+*
+{Comment:
+3\C = Seven good cards, preemptive.
+4\D = \S and \D, at least 4-5.
+5\C = The sacrifice should be profitable.
+X = I do not want to play at the five level.
+Ruff the second \S and draw trumps in two rounds. Lead a \D to the King, cash the Ace of \H and exit in \H. The Ace of \D will set the contract, but just by one trick. A very good result for North-South as 4\S make easily but not 5\S.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     500       0    100       0      10      9 
+     1     420       0     99       0       9      8 
+     3     400       0     99       0       9      7 
+    17     300       0     97       2       7      5 
+    80     200       0     86      13       5      3 
+     1     170       0     77      22       4      2 
+     6     110       0     76      23       2      0 
+   149     100       0     58      41       2      0 
+    14       0      50     40      59      -2     -4 
+    12       0     100     37      62      -4     -5 
+    91       0     110     26      73      -4     -5 
+    52       0     140     10      90      -5     -6 
+     3       0     150      3      96      -5     -6 
+    10       0     170      2      97      -5     -7 
+     1       0     250      1      98      -7     -8 
+     2       0     500      0      99     -11    -12 
+     2       0     620      0      99     -12    -12 
+     1       0     790      0     100     -13    -13 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:AQ.AQT5.962.9843 T4.K93.KQJ75.KQ2 98652.864.A83.JT KJ73.J72.T4.A765"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "1NT"]
+[Result "7"]
+[Auction "E"]
+1D      Pass    1S      Pass    
+1NT     Pass    Pass    Pass    
+[Play "S"]
+S8
+*
+{Comment:
+1NT = 12-14 HCP, balanced hand.
+North wins the Ace of \S and insists with the Jack, which you duck. South overtakes with the Queen and gives a third round, North discarding a low \D.
+You have six tricks. Where do you intend to find a seventh?
+Your best chance is a double finesse in \H. First, play to the 9. When it fails to North's 10, win the Ace of \D and finesse the Jack of \H. When it holds, you are home.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     3     300       0     99       0       9      9 
+    12     200       0     98       1       7      7 
+     5     110       0     96       3       6      5 
+    53     100       0     89      10       5      5 
+     1       0       0     83      16       3      3 
+    67       0      90     76      23       1      0 
+    19       0     100     66      33       0      0 
+    15       0     110     62      37       0     -1 
+    80       0     120     52      47       0     -1 
+     3       0     130     42      57      -1     -1 
+   109       0     150     30      69      -1     -2 
+     1       0     160     18      81      -2     -2 
+    52       0     180     12      87      -2     -3 
+     7       0     200      5      94      -3     -3 
+     2       0     210      4      95      -3     -3 
+     4       0     300      3      96      -5     -5 
+     2       0     380      3      96      -7     -7 
+     1       0     500      2      97      -9     -9 
+     9       0     600      1      98     -10    -11 
+     3       0     630      0      99     -11    -11 
+     1       0     780      0     100     -12    -12 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:82.Q9.KQJ753.K82 AK953.AK.64.JT73 JT74.87543.92.95 Q6.JT62.AT8.AQ64"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "S"]
+Pass    1C      1D      1S      
+Pass    1NT     Pass    2D      
+Pass    2NT     Pass    3NT     
+Pass    Pass    Pass    
+[Play "N"]
+DK
+*
+{Comment:
+With 12 HCP and both majors, you must open in fourth position.
+West considers bidding 2NT, but opts finally for 1NT only. In any case, no matter his bid, it will put an end to the sequence.
+The first problem is the card to play on the opening lead of the \S6.
+The declarer knows two cards higher than the 6 in South (rule of eleven), one of them being probably the 10 or the Jack. Therefore, the Queen seems the right card. When it holds, the declarer can make up to nine tricks thanks to the 3-3 \D break.
+If West plays low on the opening lead, South's 8 will force the Ace and the declarer will be limited to eight tricks. So 150, 120 or 90 (if North underleads the King of \S and West does not dare to put up the Queen)?
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     400       0    100       0      11     13 
+     1     250       0     99       0       9     12 
+     1     200       0     99       0       8     12 
+    15     150       0     97       2       7     11 
+   121     100       0     82      17       6     11 
+    65      50       0     61      38       5     10 
+     2       0      50     54      45       2      9 
+     1       0     100     54      45       1      8 
+     8       0     110     53      46       0      8 
+     2       0     120     52      48       0      7 
+     7       0     130     51      49       0      7 
+     7       0     140     49      50      -1      7 
+    22       0     150     46      53      -1      7 
+    56       0     170     37      62      -2      6 
+     5       0     200     30      69      -2      6 
+     2       0     300     30      70      -5      4 
+    34       0     400     25      74      -7      1 
+    72       0     420     14      85      -7      0 
+    11       0     430      4      95      -7      0 
+    10       0     450      2      97      -8     -1 
+     3       0     460      1      98      -8     -1 
+     1       0     490      0      99      -9     -2 
+     1       0     500      0      99      -9     -2 
+     1       0     800      0      99     -12     -9 
+     1       0    1400      0     100     -15    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:AJ7.K.AT84.Q9854 T92.Q653.Q9752.3 86543.JT97.3.KJ7 KQ.A842.KJ6.AT62"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "1NT"]
+[Result "7"]
+[Auction "W"]
+1NT     Pass    Pass    Pass    
+[Play "N"]
+C5
+*
+{Comment:
+1NT = 16-18 HCP in intervention.
+Win the Ace of \S and continue with the King of \D.
+West wins and insists in \S.
+Win the King and cash four rounds of \D, watching West's discards carefully. As a matter of fact, you know he holds both the King of \H and the King of \C for his opening.
+A) If West does not discard one single \S, one of of his King is now bare : cash both aces and claim nine tricks.
+B) West discards one \S : throw him in by playing the \S5. He will have to underlead either of his Kings.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     670       0    100       0      12     13 
+     1     300       0     99       0       8      9 
+     1     250       0     99       0       7      9 
+     2     200       0     99       0       6      8 
+     2     180       0     98       1       6      7 
+     2     170       0     98       1       5      7 
+    10     150       0     97       3       5      7 
+    19     140       0     93       6       5      6 
+     1     130       0     91       8       5      6 
+    12     110       0     90      10       4      6 
+    60     100       0     82      18       4      6 
+    12      90       0     73      26       4      5 
+     1      80       0     72      27       3      5 
+    57      50       0     66      34       3      5 
+     2       0      80     59      40      -1      1 
+    96       0      90     48      51      -2      1 
+    25       0     100     34      65      -2      1 
+    20       0     110     29      70      -2      0 
+    60       0     120     20      79      -2      0 
+    17       0     140     12      87      -3     -1 
+    16       0     150      8      91      -3     -1 
+     5       0     180      6      93      -4     -2 
+    11       0     200      4      95      -4     -2 
+     8       0     300      2      97      -6     -5 
+     2       0     400      1      98      -8     -7 
+     1       0     430      0      99      -9     -7 
+     1       0     500      0      99     -10     -9 
+     1       0     800      0      99     -13    -12 
+     2       0    1100      0      99     -14    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AT954.A8.843.A83 Q8.JT94.J765.KJ4 K76.K765.AQ.T765 J32.Q32.KT92.Q92"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+1S      Pass    2C      Pass    
+2S      Pass    4S      Pass    
+Pass    Pass    
+[Play "E"]
+HJ
+*
+{Comment:
+2\S = Three or four cards, 6-10 SP.
+4\C and 4\D = Controls.
+Cover the \H10 with the \HJ, and ruff East's \HQ. What now?
+Lead a \D to the King and East's Ace.
+You now know that the King of \S lies in West, because East, a passed hand, has already shown ten points : Ace-Queen of \H and the Ace of \D.
+You have just one thing to do : cross your fingers and cash the Ace of \S...
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     650       0     99       0      12      1 
+     2     630       0     99       0      12      0 
+    53     620       0     93       6      12      0 
+    15     600       0     85      14      12     -1 
+     1     200       0     83      16       5     -9 
+     1     180       0     83      16       5    -10 
+     9     170       0     82      17       5    -10 
+     8     150       0     80      19       4    -10 
+    49     140       0     74      25       4    -10 
+    10     110       0     67      32       3    -11 
+   227       0     100     41      59      -3    -12 
+    69       0     200      7      92      -5    -13 
+     1       0     300      0     100      -7    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:KJ7653.A7632.J6. A92.KQ98.T32.A32 8.5.Q75.KQT98754 QT4.JT4.AK984.J6"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4CX"]
+[Result "9"]
+[Auction "E"]
+1C      4C      x       Pass    
+Pass    Pass    
+[Play "W"]
+DA
+*
+{Comment:
+2NT = 20-21 HCP.
+6NT = 34-35 HCP in the line, it should be enough.
+North wins the King of \H and insists in the suit. Despite your thirty-five points, you have only eleven sure tricks. Before cashing the black suits, it costs nothing to cash the red to get to know more about distributions. North discards a \D on the last \H. Will you now try \S or \C? You must start with \S, because, thanks to the 9, \C offer more possibilities than the \S. When South discards on the third \S, you know North's exact shape : four \S, two \H, four \D and three \C. Cash Ace, King and Queen of \C and claim twelve tricks.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     800       0     99       0      14     14 
+     2     470       0     99       0      12     11 
+     2     300       0     99       1      10      9 
+    10     200       0     97       2       8      7 
+    23     150       0     93       6       7      6 
+     3     130       0     90       9       7      6 
+     7     110       0     89      10       6      5 
+    18     100       0     86      13       6      5 
+    21      50       0     82      17       5      4 
+    51       0      50     74      25       3      2 
+    79       0     100     59      40       2      0 
+    16       0     130     48      51       1     -1 
+    41       0     150     42      57       0     -2 
+    22       0     200     35      64      -2     -3 
+     2       0     210     32      67      -2     -3 
+     9       0     250     31      68      -3     -4 
+    50       0     300     24      75      -4     -5 
+    16       0     400     16      83      -6     -7 
+     2       0     420     14      85      -7     -8 
+    11       0     430     13      86      -7     -8 
+    14       0     500     10      89      -8     -9 
+    23       0     800      6      93     -12    -12 
+    14       0    1100      2      97     -14    -14 
+     3       0    1700      0      99     -17    -17 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:Q9.KQT72.J6.J543 8643.9.K542.K986 AJT7.AJ43.Q97.Q2 K52.865.AT83.AT7"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "8"]
+[Auction "S"]
+1D      Pass    1H      Pass    
+2H      Pass    Pass    Pass    
+[Play "E"]
+S6
+*
+{Comment:
+2\D = Major two-suiter, at least 5-5.
+3\H = Game proposal.
+5\D = Hoping game will make in either side.
+North shifts to the Queen of \S after two \C tricks.
+If the \D break 2-1, the play will be easy. If South holds Q107, you can capture the Queen by passing the Jack. But how can you know?
+Remember the bidding. South bid 3\H, because he has fewer or as many \S. On the other hand, you know North has only five \H and therefore six \S. His distribution is 6502. Win the King of \S and pass the Jack of \D if South does not cover. If he does, cross to the Jack of \C to finesse the 9 of \D.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1080       0    100       0      14     14 
+     1     930       0     99       0      13     13 
+     1     650       0     99       0      12     11 
+    49     620       0     94       6      11     11 
+     1     200       0     88      11       4      3 
+    67     170       0     80      19       3      2 
+    72     140       0     65      34       3      1 
+    76     110       0     48      51       2      0 
+     3     100       0     39      60       2      0 
+     1      90       0     39      60       1     -1 
+    75       0     100     30      69      -4     -5 
+     1       0     110     22      77      -4     -6 
+     1       0     150     22      77      -5     -6 
+     1       0     180     21      78      -6     -7 
+    96       0     200     11      88      -6     -7 
+     1       0     300      0      99      -8     -9 
+     1       0     500      0     100     -11    -12 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:54.KQ4.J4.AKJT53 KJ986.7.QT96.964 732.T9832.532.Q2 AQT.AJ65.AK87.87"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Auction "W"]
+1D      2C      Pass    Pass    
+x       Pass    3S      Pass    
+4S      Pass    Pass    Pass    
+[Play "S"]
+CQ
+*
+{Comment:
+3\C = Four-card \S raise, 11 SP or more.
+East leads the 2 of \C, which looks very much like a singleton.
+Win the Ace, eliminate \S with the finesse and exit in \H.
+West cashes the Jack, then the King and shifts to \D. Win the Ace and exit in \D.
+A) East gains the lead : he must play ruff and discard.
+B) West gains the lead : if he tries to exit with the Queen of \C, duck it. On the following trick, he will have to play into the \C tenace or a red suit, ruff and discard.
+One down for a very good result (50) for North-South as 4\H make in East-West (620).
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     500       0    100       0      13     15 
+     2     300       0     99       0      12     14 
+    10     200       0     98       1      11     13 
+     1     180       0     97       2      11     13 
+    14     100       0     95       4      10     13 
+     5      90       0     93       6      10     12 
+     9       0      50     91       8       8     12 
+     2       0      90     90       9       7     11 
+    16       0     100     88      11       7     11 
+     6       0     130     86      14       6     11 
+    94       0     150     74      25       6     11 
+    20       0     170     62      38       5     10 
+     1       0     190     59      40       5     10 
+    59       0     200     52      47       5     10 
+     7       0     500     45      54      -4      4 
+    28       0     600     41      58      -6      2 
+    32       0     620     34      65      -6      1 
+     3       0     630     30      69      -6      1 
+   126       0     650     16      83      -7      0 
+     1       0     750      2      97      -9     -3 
+     1       0     790      2      98      -9     -4 
+     6       0     800      1      98     -10     -4 
+     1       0     850      0      99     -10     -5 
+     1       0     990      0      99     -12     -8 
+     1       0    1100      0     100     -12    -10 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:K6.AQ.AK765.8765 T85.KJ974.J9.KJ2 AQ7.65.843.AT943 J9432.T832.QT2.Q"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "E"]
+H7
+*
+{Comment:
+2\S = 8-10 SP, three or four cards.
+X = Trial bid, 3\S would be purely competitive.
+Ruff the third \H high, noting the 6-2 \H break.
+Draw trumps, noting the 3-1 break and continue with the King of \C.
+North wins the Ace and plays another \C.
+When North follows on the third \C, you know his exact distribution : 3613. Cash the Ace of \D and finesse the Jack.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     920       0    100       0      13      7 
+     1     800       0     99       0      12      5 
+    12     490       0     98       1       8     -4 
+    43     460       0     92       7       7     -5 
+     1     450       0     87      12       7     -5 
+    97     430       0     76      23       6     -5 
+    20     400       0     63      36       6     -6 
+     1     300       0     60      39       4     -8 
+     1     240       0     60      39       2     -9 
+     2     210       0     60      39       1     -9 
+     5     180       0     59      40       0    -10 
+     9     150       0     57      42      -1    -10 
+    34     130       0     53      46      -1    -11 
+     8     120       0     48      51      -2    -11 
+    16     110       0     45      54      -2    -11 
+     8     100       0     43      56      -2    -11 
+     1      90       0     42      57      -2    -11 
+     7      50       0     41      58      -3    -11 
+   151       0      50     23      76      -6    -12 
+    27       0     100      3      96      -7    -12 
+     1       0     110      0      99      -7    -12 
+     1       0     130      0      99      -7    -13 
+     1       0     150      0     100      -8    -13 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:86.KT7.QJT43.872 QT952.AQ.A9.KT63 743.J942.85.AQJ9 AKJ.8653.K762.54"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[Auction "E"]
+1S      Pass    3C      Pass    
+4S      Pass    Pass    Pass    
+[Play "S"]
+S3
+*
+{Comment:
+What can South's holding be to lead the 10 of \S?
+- Either 10 9 8 x,
+- Or Queen 10 9 x (x),
+- Or King 10 9 x (x).
+In all cases, you must put up the Ace in order to block the suit. Then pass the Jack of \H.
+South wins the King and insists in \S. As expected, the suit is blocked and you can claim nine tricks.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     150       0     99       0      10      3 
+    13     100       0     98       1       9      2 
+   136      50       0     81      18       8      0 
+     1       0       0     66      33       7     -2 
+     5       0     140     65      34       4     -5 
+     1       0     150     65      35       4     -5 
+     4       0     170     64      35       3     -6 
+     1       0     200     63      36       2     -6 
+    10       0     400     62      37      -3    -10 
+   141       0     420     45      54      -4    -10 
+     8       0     430     29      70      -4    -10 
+    99       0     450     17      82      -5    -11 
+     4       0     460      5      94      -5    -11 
+    22       0     480      2      97      -5    -11 
+     2       0     980      0      99     -12    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:A54.JT974.87.K83 KQJ76.86.AKJ3.Q7 9832.532.92.AJT2 T.AKQ.QT654.9654"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[Auction "S"]
+Pass    Pass    Pass    1S      
+Pass    2D      Pass    3D      
+Pass    3NT     Pass    Pass    
+Pass    
+[Play "N"]
+HJ
+*
+{Comment:
+3\D = Seven good cards and nothing else, preemptive...
+South wins the Ace of \D and his \D continuation is ruffed by North. The Ace of and another \S follow. Draw trumps, noting that the 4-1 break and count North's distribution : seven \S (South did not raise), four \H, one \D and consequently only one \C. No need to play the Queen of \C, play the 4 instead and claim your contract when the King shows up.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     5     200       0     99       0      12      3 
+    49     100       0     93       6      11      0 
+     3       0      50     87      12       9     -4 
+     1       0      90     87      12       8     -5 
+     4       0     100     86      13       8     -5 
+     3       0     110     85      14       7     -5 
+     3       0     120     85      14       7     -6 
+    26       0     130     82      18       7     -6 
+     5       0     140     78      21       7     -6 
+    48       0     150     72      27       7     -6 
+    29       0     170     64      36       6     -7 
+     2       0     180     60      39       6     -7 
+     9       0     200     59      40       6     -7 
+     2       0     210     58      41       5     -7 
+     3       0     230     57      42       5     -8 
+   129       0     600     42      57      -5    -12 
+    27       0     620     25      74      -5    -12 
+    29       0     630     19      81      -5    -12 
+     2       0     650     15      84      -6    -13 
+    39       0     660     11      89      -6    -13 
+     6       0     680      5      94      -6    -13 
+    23       0     690      2      97      -7    -13 
+     1       0    1370      0     100     -14    -16 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:KJ5.A653.KT2.J74 98.98.Q763.AT852 Q632.KJ74.J85.Q9 AT74.QT2.A94.K63"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "2H"]
+[Result "7"]
+[Auction "W"]
+1C      Pass    2C      Pass    
+Pass    x       Pass    2H      
+Pass    Pass    Pass    
+[Play "W"]
+C3
+*
+{Comment:
+1NT = 15-17 HCP.
+3NT = 9-15 HCP.
+After the \S lead, your task is to find nine tricks without surrendering the lead.
+Win the King of \S, cross to the King of \C and lead the Jack of \D, pretending to finesse against the Queen.
+A) West ducks : you have eight tricks and the successful \H finesse will give you the ninth.
+B) The rule of eleven told West that you have no card higher than the 7, so that his partner's \S are high : he grabs the Ace and four \S tricks set your contract.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     800       0    100       0      13     14 
+     2     500       0     99       0      11     12 
+     4     400       0     99       1      10     11 
+    11     300       0     97       2       8      9 
+    21     200       0     93       6       6      7 
+     1     170       0     91       8       6      7 
+    10     140       0     90       9       5      6 
+     2     120       0     88      11       5      6 
+    68     110       0     80      19       4      5 
+    41     100       0     68      31       4      5 
+     1      90       0     64      35       4      5 
+    18       0      90     61      38      -1      0 
+   144       0     100     43      56      -2      0 
+    22       0     110     25      74      -2      0 
+     7       0     120     22      77      -2     -1 
+     3       0     130     21      79      -2     -1 
+     2       0     150     20      79      -3     -2 
+    67       0     200     12      87      -4     -3 
+    15       0     300      3      96      -6     -5 
+     2       0     400      1      98      -8     -7 
+     2       0     500      1      98     -10     -9 
+     3       0     670      0      99     -12    -11 
+     2       0     800      0      99     -13    -12 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AQ.K643.A.AQT982 85.AQ972.J963.K6 J642.T.Q8542.J73 KT973.J85.KT7.54"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3C"]
+[Result "9"]
+[Auction "N"]
+1C      1H      Pass    2H      
+3C      Pass    Pass    Pass    
+[Play "E"]
+S8
+*
+{Comment:
+3\H = 16-18 SP.
+4\H = South is a bit short to consider a slam.
+After eliminating a \C or a \H lead (with Jx), and a \S lead (under Dxx), West opts for the \D lead.
+The declarer wins the Ace and leads a \C to the Queen. East must resist the temptation of a trump return, as he knows that his partner will overruff \C. Since \S are not appealing, he insists in \C.
+A) South tries to ruff a \C : West overruffs with the Jack and returns a \D, ruffed in dummy. The declarer ruffs the last \C with the King, draws trumps and the \S finesse fails for ten tricks only.
+B) South finesses the Jack of \S : West wins the Queen and forces dummy to ruff a \D. South then draws trumps and he can make one overtrick thanks to a ruffing finesse in \C, provided he kept the \S communications.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     750       0    100       0      12     12 
+     3     630       0     99       0      11     10 
+     1     620       0     99       0      11     10 
+    33     600       0     95       4      11     10 
+     4     500       0     91       8       9      8 
+     1     400       0     90       9       7      6 
+     7     300       0     89      10       5      4 
+     6     200       0     88      11       3      2 
+     1     180       0     87      12       2      1 
+     9     170       0     86      13       2      1 
+   133     150       0     70      29       2      0 
+     1     140       0     55      44       1      0 
+    46     130       0     50      49       1     -1 
+    36     120       0     41      58       1     -1 
+    15     110       0     35      64       0     -1 
+    25     100       0     30      69       0     -2 
+    32      50       0     24      75      -2     -3 
+     1       0      80     20      79      -5     -6 
+    46       0     100     15      84      -5     -6 
+     5       0     110      9      90      -5     -6 
+    12       0     140      7      92      -6     -7 
+    10       0     200      5      94      -7     -8 
+     6       0     300      3      96      -9    -10 
+     6       0     400      2      97     -11    -11 
+     2       0     500      1      98     -12    -12 
+     4       0     530      0      99     -12    -12 
+     1       0     590      0      99     -12    -12 
+     1       0     630      0     100     -12    -13 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:KQT8.87.732.K862 J54.AKT943.AJ5.7 9.J5.KQT96.AT953 A7632.Q62.84.QJ4"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "9"]
+[Auction "E"]
+1H      2NT     3H      4C      
+4H      Pass    Pass    Pass    
+[Play "S"]
+DK
+*
+{Comment:
+2\C = "Roudi" (Check-back Stayman).
+2NT = Maximum, two cards in \S.
+In 3NT, East must duck \H twice, to try to break North-South's communications. A careful South will follow with the King under the Ace, to signal his preference for \D. North will then shift to \D after the King of \S to set the contract by two tricks.
+In 4\S, wich can be reached if South overcalls 1\H, also on a \H lead, West may bring his contract home if he guesses that the King of \S is off side. He ducks the first \H and set about knocking off the Ace of \D. South wins on the second round and plays another \H. At this stage, the declarer must renounce the \S finesse to avoid a \D ruff. Very difficult...
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     800       0    100       0      14     12 
+     2     500       0     99       0      12      9 
+     6     300       0     98       1      10      5 
+    43     200       0     93       6       8      3 
+     1     130       0     88      11       7      1 
+   104     100       0     76      23       6      0 
+     5       0      50     64      35       3     -4 
+    20       0     100     61      38       2     -5 
+    37       0     140     55      44       0     -6 
+    74       0     150     42      57       0     -6 
+    21       0     170     32      67      -1     -7 
+     4       0     200     29      70      -2     -7 
+     1       0     250     28      71      -3     -8 
+     4       0     300     28      71      -4     -9 
+    62       0     500     20      79      -8    -12 
+     1       0     600     13      86     -10    -12 
+    55       0     620      7      92     -10    -12 
+     1       0     650      1      98     -11    -13 
+     1       0     730      1      98     -11    -13 
+     1       0     790      0      99     -12    -13 
+     3       0     800      0      99     -12    -14 
+     1       0     930      0     100     -13    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:KQJ74.82.85.AQT3 A952.JT9.AK93.74 T83.754.QJT4.962 6.AKQ63.762.KJ85"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[Auction "S"]
+Pass    1H      1S      x       
+Pass    2C      Pass    4H      
+Pass    Pass    Pass    
+[Play "N"]
+SK
+*
+{Comment:
+2NT = Trial bid.
+3\H = Minimum.
+Opening leads under a Jack or a Queen are ill-advided against a suit contract, the King of \C, behind a strong declarer, is too dangerous, so that a neutral trump lead is better.
+Duck a \S at trick two. Win the trump return and ruff a \S. You will still concede two \C and the King of \H for just made.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     4     300       0     99       0      11     14 
+    52     200       0     93       6       9     13 
+   175     100       0     68      32       7     12 
+     2       0      90     48      51       3     11 
+     1       0     100     47      52       3     11 
+     3       0     110     47      52       3     11 
+     1       0     120     47      53       2     11 
+     1       0     130     46      53       2     10 
+    11       0     140     45      54       2     10 
+     1       0     150     44      55       2     10 
+    10       0     170     42      57       1     10 
+     1       0     200     41      58       0      9 
+     2       0     500     41      58      -7      3 
+     1       0     600     40      59      -9      1 
+   175       0     620     21      78      -9      0 
+     7       0     650      0      99     -10     -1 
+     1       0     800      0     100     -12     -5 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:JT984.AQ.KT7.974 32.32.9832.KJ832 AKQ5.76.AQJ.AT65 76.KJT9854.654.Q"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "6S"]
+[Result "12"]
+[Auction "W"]
+3H      Pass    Pass    x       
+Pass    4S      Pass    5S      
+Pass    6H      Pass    6S      
+Pass    Pass    Pass    
+[Play "E"]
+H3
+*
+{Comment:
+X = Takeout.
+1\H = 0-7 HCP.
+2\H = 18-20 SP.
+4\H = Maximum of the minimum, furthermore you have a fifth \H.
+North makes the first two tricks in \C and gives a third round. How should you handle the trumps after ruffing the \C return?
+After North's opening, you know he has at least one \H honour. Cross to the King of \S and pass the 10 of \H. When South's King show up, you know you must repeat the finesse, after crossing back to the closed hand thanks to the King of \D.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     3    1400       0     99       0      14     -1 
+     3    1100       0     99       0      12     -8 
+    37     980       0     94       5      11    -10 
+     1     800       0     90       9       8    -12 
+     2     490       0     90      10       1    -14 
+   171     480       0     70      29       1    -14 
+     9     460       0     50      49       0    -14 
+   167     450       0     30      69       0    -14 
+     1     430       0     11      88      -1    -14 
+     5     420       0     11      89      -1    -14 
+     1     300       0     10      89      -4    -15 
+     3     230       0      9      90      -6    -15 
+    13     200       0      8      91      -6    -15 
+     1     170       0      6      93      -7    -15 
+     3     150       0      6      93      -7    -15 
+     1     140       0      5      94      -8    -15 
+     1     110       0      5      94      -8    -16 
+    22       0      50      2      97     -11    -16 
+     1       0     100      0      99     -11    -17 
+     1       0     150      0     100     -12    -17 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:3.Q83.KQ74.AQJ62 7.AKT9642.J85.73 AKQT642.J7.2.T95 J985.5.AT963.K84"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "9"]
+[Auction "N"]
+1C      3H      3S      Pass    
+3NT     Pass    4S      Pass    
+Pass    Pass    
+[Play "W"]
+H5
+*
+{Comment:
+1NT = 15-17 HCP.
+3NT = 9-15 HCP.
+With fourteen points, West has been unable to take part in the bidding. Now he must try to beat the contract. When the dummy comes down, he understands that the contract can be beaten if the declarer has only two \C. His objective is to "kill" the dummy to prevent the exploitation of its \C.
+He wins the Ace of \D and shifts to the King of \H to blow dummy's Ace. After this "Merrimac coup", his partner's 2 of \C tells him that the declarer has actually only two \C and ducking once beats the contract. The declarer is unable to make more than eight tricks : two \S, three \H, two \D and one \C.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1400       0    100       0      15     16 
+     1    1100       0     99       0      13     15 
+     1    1080       0     99       0      13     15 
+     1     690       0     99       0      10     12 
+     6     590       0     98       1       8     12 
+     3     500       0     97       2       6     11 
+     1     480       0     97       3       6     11 
+    13     450       0     95       4       5     11 
+     5     430       0     93       6       5     10 
+   206     420       0     68      31       5     10 
+     7     400       0     44      56       4     10 
+     3     200       0     42      57      -2      6 
+    21     170       0     40      60      -2      6 
+    17     140       0     35      64      -3      5 
+     1     110       0     33      66      -4      4 
+     1     100       0     33      66      -4      4 
+    98       0      50     21      78      -7      0 
+    31       0     100      6      93      -8     -2 
+     1       0     140      3      97      -9     -3 
+     9       0     150      1      98      -9     -3 
+     1       0     170      0      99      -9     -3 
+     2       0     300      0      99     -11     -6 
+     1       0     500      0     100     -13    -10 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:8642.A743.63.A82 AJ7.98.985.QJT65 5.KJ62.AKQJT4.73 KQT93.QT5.72.K94"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4H"]
+[Result "10"]
+[Auction "E"]
+Pass    1D      1S      x       
+2S      4H      Pass    Pass    
+Pass    
+[Play "W"]
+SK
+*
+{Comment:
+3\D = Seven good cards, preemptive.
+X = Takeout.
+4\D = To propose a sacrifice.
+Ruff the second \D and lead a \S to the Ace. When East discards, continue with the King of \C. West wins and exits in \C. Cash the King of \S, the last \C and exit in \S. West is forced to handle \H :
+A) He plays the \H5 : win East's Jack with the Ace and finesse against West's Queen.
+B) A shrewd West returns the Queen of \H : you must guess who has the Jack...
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     990       0    100       0      12      9 
+     5     680       0     99       0       9      2 
+    84     650       0     89      11       8      1 
+    61     620       0     72      27       7      0 
+     2     600       0     64      35       7     -1 
+     3     500       0     64      35       5     -3 
+     5     230       0     63      36      -2     -9 
+    65     200       0     55      44      -3     -9 
+    54     170       0     41      58      -4    -10 
+    10     150       0     33      66      -4    -10 
+    14     140       0     31      69      -5    -10 
+    53     130       0     23      76      -5    -10 
+     9     110       0     16      84      -5    -11 
+     9     100       0     14      86      -5    -11 
+    27       0     100      9      90      -9    -12 
+     2       0     140      6      93     -10    -13 
+     1       0     170      6      94     -10    -13 
+    20       0     200      3      96     -11    -13 
+     3       0     300      0      99     -12    -14 
+     1       0     500      0      99     -13    -15 
+     2       0     670      0      99     -14    -15 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:87.J763.7654.JT2 AQT4.KQ.AK82.764 K9632.84.QJT.AK9 J5.AT952.93.Q853"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "S"]
+1S      Pass    Pass    2NT     
+Pass    3D      Pass    3H      
+Pass    3NT     Pass    Pass    
+Pass    
+[Play "S"]
+DQ
+*
+{Comment:
+South's 2\H invites to game but North declines after devaluating the bare \SQJ, of dubious value.
+With bare Ace-King, lead the King.
+West will follow with the 8 on the second roud to show his interest for a \D return. After the Ace of \D, you ruff the \S return with the 10 and East overruffs with the Jack. You will then have to guess the position of the \H to make your contract. In fact, East would probably not have played this way had he held \HQJx.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     4     150       0     99       0       6     11 
+    31     100       0     95       4       5     11 
+     2      80       0     91       8       5     10 
+   132      50       0     75      24       4     10 
+     1       0      50     59      41       1      8 
+    11       0      90     57      42       0      7 
+     7       0     100     55      44       0      7 
+    14       0     110     52      47      -1      7 
+    35       0     120     46      53      -1      7 
+     1       0     130     42      57      -1      7 
+    51       0     140     36      63      -2      6 
+    31       0     150     26      73      -2      6 
+    12       0     170     21      79      -2      6 
+     4       0     180     19      80      -3      6 
+     2       0     200     18      81      -3      5 
+     1       0     210     18      82      -3      5 
+     2       0     300     17      82      -5      3 
+    53       0     400     10      89      -7      0 
+     4       0     420      4      96      -8     -1 
+    13       0     430      1      98      -8     -1 
+     1       0     460      0      99      -9     -2 
+     1       0     500      0     100      -9     -3 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:75.KQ94.AJ76.AQ4 AT82.32.9432.J92 6.JT765.KQT5.765 KQJ943.A8.8.KT83"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4SX"]
+[Result "9"]
+[Auction "W"]
+1S      x       3S      4H      
+4S      x       Pass    Pass    
+Pass    
+[Play "N"]
+HK
+*
+{Comment:
+With a ten-card fit and King-Queen in partner's opening, bidding the game is mandatory.
+Count your losers : one \S (with a 2-1 break), one \H, two \D. The lead of the 10 of \D, with the 9 in dummy, shows that South has a doubleton. Your only chance is to find the Ace of \H in South. South may also err and "forget" to put up the Ace of \H.
+Duck the first \D and cross to the Ace of \S to lead your sole \H. South goes up with the Ace but he cannot pass the lead to his partner. As a matter of fact, you knew for sure that the Ace of \H was in South' hand because North would have overcalled 1\D, had he held this Ace.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     850       0    100       0      13     13 
+     1     790       0     99       0      13     12 
+     3     650       0     99       0      12     11 
+    12     620       0     97       2      12     11 
+     1     500       0     95       4      10      9 
+    12     300       0     93       6       7      5 
+     1     200       0     91       8       5      3 
+     3     170       0     91       8       4      2 
+     1     150       0     90       9       4      2 
+     1     140       0     90       9       3      1 
+    78     100       0     79      20       2      0 
+   141      50       0     49      50       1     -2 
+    26       0     100     26      73      -3     -5 
+    36       0     140     18      82      -4     -6 
+     6       0     170     12      87      -5     -7 
+    18       0     200      8      91      -6     -7 
+    15       0     420      4      95     -10    -11 
+     2       0     500      2      97     -11    -12 
+     6       0     590      1      99     -12    -12 
+     1       0     690      0     100     -12    -13 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "29"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:AJT9652.94.JT3.J KQ.K72.K95.AKT64 873.AQ85.A762.95 4.JT63.Q84.Q8732"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+3S      3NT     4S      Pass    
+Pass    Pass    
+[Play "E"]
+CA
+*
+{Comment:
+4\C = Splinter, four-card raise and \C shortness.
+West shifts to \D after the first two tricks in \S.
+Win the Ace and cash Ace-King of \H. When East discards, finesse the Queen of \C. West wins the King and plays a third round of \S, ruff and discard. Ruff in the closed hand and cash out the \C. When West ruffs, overuff with the Queen, cross to the Jack of \H and claim.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1700       0    100       0      16     14 
+     3    1400       0     99       0      14     13 
+     2    1360       0     98       1      14     12 
+     3    1100       0     97       2      13     10 
+     9     930       0     95       4      11      7 
+    13     800       0     92       7      10      5 
+    25     790       0     86      13      10      5 
+     7     730       0     81      18       9      3 
+    31     620       0     75      24       7      0 
+    19     500       0     67      32       4     -3 
+    10     400       0     62      37       2     -6 
+    39     300       0     55      44      -1     -8 
+    55     200       0     40      59      -4     -9 
+    19     170       0     28      71      -5    -10 
+    16     140       0     22      77      -5    -10 
+    27     100       0     16      83      -6    -11 
+    12       0     100     10      90     -10    -12 
+     2       0     120      7      92     -10    -12 
+    18       0     200      4      95     -11    -13 
+     4       0     500      1      98     -13    -15 
+     1       0     600      0      99     -14    -15 
+     1       0     800      0     100     -15    -16 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "30"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:64.86.Q9643.AKJ8 AQ9.QJ92.AJT2.T2 T853.A53.K5.Q965 KJ72.KT74.87.743"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3H"]
+[Result "9"]
+[Auction "E"]
+1D      Pass    1H      Pass    
+2H      Pass    Pass    2NT     
+x       3C      3H      Pass    
+Pass    Pass    
+[Play "N"]
+CA
+*
+{Comment:
+1\S = Five cards or more, if such is your system.
+2\S = Six cards.
+3\S = Not an easy bid but you have an eight-card fit.
+One loser in each suit : just made.
+If you allowed South to play 3\H, your'll get a poor score...
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     150       0     99       0       7      7 
+     6     140       0     98       1       7      7 
+     6     100       0     96       3       6      6 
+    21      50       0     92       7       5      5 
+     1       0       0     88      11       4      4 
+     4       0      50     88      11       2      3 
+     3       0      90     87      13       1      2 
+     3       0     100     86      13       1      1 
+     7       0     110     84      15       1      1 
+    13       0     120     81      18       0      1 
+   235       0     140     42      57       0      0 
+     3       0     150      4      95      -1      0 
+    10       0     170      2      97      -1     -1 
+     1       0     300      0      99      -5     -4 
+     1       0     420      0      99      -7     -7 
+     1       0     570      0     100     -10    -10 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "31"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K954.K8.KT43.Q74 32.Q932.972.T932 AQJT6.T765..A865 87.AJ4.AQJ865.KJ"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Auction "S"]
+1S      2D      3S      Pass    
+4S      Pass    Pass    Pass    
+[Play "W"]
+S8
+*
+{Comment:
+2\D = Third suit forcing, with or without \D, asking partner to describe his hand, giving priority to a three-card \S fit.
+3\D = Natural, no three cards in \S.
+5\C = With 5-4 or 6-4 distribution in West, 3NT is probably not the best contract.
+Eleven tricks are easy in \C, with the Ace of \H on side. Concede the two red aces, draw trumps in two rounds and cross-ruff the rest of the tricks.
+In 3NT, on a \H lead, nine tricks seem easy but the declarer may decide wrongly if North ducks smoothly when a \D is led to the King. He may give up the \S finesse and lead another \D to the Queen.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     3    1100       0     99       0      11     10 
+     1     990       0     98       1      10      8 
+     1     850       0     97       2       8      5 
+    18     800       0     92       7       7      4 
+     1     680       0     87      12       5      1 
+    62     650       0     70      29       4      0 
+    36     620       0     43      56       3     -1 
+     3     500       0     33      66       0     -4 
+    17     200       0     27      72      -7    -10 
+    11     170       0     20      79      -8    -10 
+     5     150       0     15      84      -8    -11 
+     2     140       0     13      86      -9    -11 
+     1     110       0     13      87      -9    -11 
+     4     100       0     11      88      -9    -11 
+     1      50       0     10      89     -10    -12 
+    16       0     100      5      94     -12    -13 
+     2       0     200      0      99     -12    -13 
+     1       0     500      0     100     -14    -15 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "32"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:842.87.A853.QJT3 A5.KQJT62.T4.AK9 QJT6.A4.K962.864 K973.953.QJ7.752"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4H"]
+[Result "10"]
+[Auction "W"]
+Pass    Pass    1H      Pass    
+2H      Pass    4H      Pass    
+Pass    Pass    
+[Play "S"]
+SQ
+*
+{Comment:
+2\H = Six good cards, 6-10 HCP.
+X = The hand is too weak to bid 2\S.
+4\H = Preemptive.
+4\S = The least West could do...
+West follows with the Jack of \H on the first trick. For North, his partner's 7 of \H can come from RV75 or from R87. He continues with the Queen, and, when it holds, shifts to the Queen of \C. Anyway, no matter North's return, with the bad \D break, West had no means to make his contract. Normally a good result for East-West because 4\H easily make in North-South.
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     200       0     99       0       9     13 
+    67     100       0     81      19       7     12 
+     1       0     100     62      37       3     11 
+    29       0     140     54      45       2     10 
+     4       0     150     45      54       2     10 
+    17       0     170     39      60       1     10 
+     1       0     500     34      65      -7      3 
+    61       0     620     17      82      -9      0 
+     1       0     630      1      98      -9      0 
+     1       0     650      0      99     -10     -1 
+     1       0     800      0     100     -11     -5 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "33"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:A82.T2.A63.AKQ52 QJT74.J754.T42.6 65.A9863.KQ7.873 K93.KQ.J985.JT94"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1NT     Pass    2D      Pass    
+2H      Pass    3NT     Pass    
+Pass    Pass    
+[Play "E"]
+SQ
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     460       0    100       0       6     -4 
+     1     450       0     99       0       6     -4 
+    58     400       0     74      25       5     -5 
+     1     200       0     49      50       0     -9 
+     1     170       0     48      51      -1    -10 
+     2     140       0     47      53      -2    -10 
+     2     130       0     45      54      -2    -10 
+     5     120       0     42      57      -2    -10 
+    38       0      50     24      75      -6    -12 
+     6       0     100      5      94      -7    -12 
+     1       0     200      2      97      -9    -13 
+     3       0     400      0      99     -12    -14 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "34"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:Q9854.T854.K94.T K7.J.AQJ83.AK762 AT3.KQ32.7652.J8 J62.A976.T.Q9543"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "5C"]
+[Result "11"]
+[Auction "E"]
+1D      Pass    1H      Pass    
+3C      Pass    5C      Pass    
+Pass    Pass    
+[Play "S"]
+HK
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     200       0    100       0      11     12 
+     1     100       0     99       0      10     11 
+    11      50       0     93       6       9     10 
+     1       0     110     88      11       6      7 
+     1       0     120     87      12       6      7 
+     1       0     130     86      13       6      7 
+     5       0     150     83      16       5      7 
+     6       0     170     78      21       5      6 
+     4       0     190     73      26       5      6 
+    18       0     400     63      36      -1      1 
+    26       0     420     43      56      -2      0 
+     9       0     430     27      72      -2      0 
+     7       0     440     20      79      -2     -1 
+    10       0     460     12      87      -3     -1 
+     1       0     490      7      92      -4     -2 
+     1       0     520      6      93      -4     -3 
+     6       0     920      3      96     -11    -11 
+     1       0     940      0     100     -11    -11 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "35"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:KJT9.842.A763.T2 A7.AT.842.Q76543 8432.K973.JT9.AJ Q65.QJ65.KQ5.K98"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3C"]
+[Result "9"]
+[Auction "S"]
+Pass    1C      Pass    3C      
+Pass    Pass    Pass    
+[Play "N"]
+H2
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     600       0    100       0      12     12 
+     1     400       0     98       1       9     11 
+     3     300       0     96       3       7      9 
+    11     200       0     88      11       5      7 
+    27     100       0     65      34       3      5 
+     1       0       0     48      51       0      3 
+     1       0      50     47      52      -1      2 
+     1       0     100     46      53      -3      0 
+    13       0     110     38      61      -3      0 
+     1       0     120     29      70      -3      0 
+     7       0     130     25      75      -3     -1 
+     4       0     150     18      81      -4     -1 
+     2       0     180     14      85      -5     -2 
+     1       0     210     13      86      -5     -3 
+     2       0     400     11      88      -9     -7 
+     8       0     600      5      94     -11    -10 
+     1       0     630      0     100     -12    -11 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "36"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:Q974.A842.QJ7.A8 82.K93.T6.KJ7543 AK63.T65.9842.Q2 JT5.QJ7.AK53.T96"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "2S"]
+[Result "8"]
+[Auction "W"]
+Pass    1D      Pass    1S      
+Pass    2S      Pass    Pass    
+Pass    
+[Play "W"]
+DA
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     200       0    100       0       4      3 
+    12     140       0     91       9       2      1 
+    41     110       0     54      45       1      0 
+    13       0     100     16      83      -5     -5 
+     5       0     200      4      95      -7     -7 
+     1       0     300      0     100      -9     -9 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "37"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:43.AKJT84.T62.K9 KJT952.3.A84.T73 AQ.Q95.J973.A642 876.762.KQ5.QJ85"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[Auction "N"]
+1H      2S      x       Pass    
+3H      Pass    4H      Pass    
+Pass    Pass    
+[Play "E"]
+C3
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     6     620       0     68      31       5      0 
+     1     100       0     25      75      -8    -11 
+     1       0     100     12      87     -11    -12 
+     1       0     110      0     100     -11    -12 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "38"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:J97.Q7652.4.A764 86.AT3.AQJ8.KT32 AKQT52.9.9763.85 43.KJ84.KT52.QJ9"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4SX"]
+[Result "8"]
+[Auction "E"]
+1D      2S      x       4S      
+x       Pass    Pass    Pass    
+[Play "W"]
+S3
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     450       0    100       0       9     13 
+     1     420       0     87      12       9     12 
+     1     110       0     75      25       2      9 
+     1     100       0     62      37       2      9 
+     1       0      50     50      50      -3      6 
+     1       0     100     37      62      -4      5 
+     2       0     110     18      81      -4      5 
+     1       0     130      0     100      -5      5 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "39"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:QJ652.65.T4.QJ94 T973.K42.AJ753.8 A4.Q97.K862.AT62 K8.AJT83.Q9.K753"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "2H"]
+[Result "8"]
+[Auction "S"]
+1D      1H      1S      2H      
+Pass    Pass    Pass    
+[Play "N"]
+DT
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     200       0     93       6       5      9 
+     3     100       0     62      37       2      7 
+     1       0     100     37      62      -3      2 
+     1       0     110     25      75      -4      2 
+     1       0     140     12      87      -4      1 
+     1       0     170      0     100      -5      0 
+}
+
+[Event "E -Engels-Frans 1406"]
+[Site "www.vijnberg.nl"]
+[Date "2014.06.25"]
+[Board "40"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:73.K763.K.QT8632 T9652.AQJ5.A.AK7 AKQ.T92.J6432.J9 J84.84.QT9875.54"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2S"]
+[Result "7"]
+[Auction "W"]
+Pass    Pass    1S      Pass    
+Pass    2C      2H      x       
+2S      Pass    Pass    Pass    
+[Play "S"]
+SA
+*
+{Comment:
+
+}
+}
+

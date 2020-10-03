@@ -1,0 +1,1949 @@
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "1"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AKQ65.95.A75.T54 92.832.KQJ.K9872 JT8.AK764.943.63 743.QJT.T862.AQJ"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "8"]
+[Auction "N"]
+1S      Pass    2S      Pass    
+Pass    Pass    
+[Play "E"]
+DK
+*
+{Comment:
+Vous pouvez bien sûr jouer deux fois \C et couper le troisième au mort, mais vous êtes en Tournoi par Paires et devez prendre la chance de trouver les C?urs partagés 3-3.
+Prenez l'entame \D de l'As et tirez trois tours de C?ur, coupant maître le dernier. Quand tout le monde fournit, purgez les atouts en finissant au mort. Bien joué, plus deux.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     500       0    100       0       9      8 
+     1     450       0     99       0       8      7 
+     7     420       0     98       1       7      6 
+     2     300       0     97       2       5      4 
+     7     200       0     96       3       2      1 
+   116     170       0     82      17       1      0 
+     5     150       0     68      31       1     -1 
+   122     140       0     53      46       0     -1 
+     3     120       0     39      60       0     -2 
+   100     110       0     27      72      -1     -2 
+     6     100       0     14      85      -1     -2 
+     1      80       0     14      86      -2     -3 
+     5      50       0     13      86      -2     -3 
+     1       0       0     12      87      -4     -5 
+    32       0      50      8      91      -5     -6 
+    16       0     100      3      96      -6     -7 
+     1       0     110      1      98      -6     -7 
+     1       0     140      0      99      -7     -7 
+     1       0     150      0      99      -7     -8 
+     1       0     170      0      99      -7     -8 
+     1       0     180      0      99      -7     -8 
+     1       0     200      0     100      -8     -9 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "2"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:J93.T654.K982.43 AKQT8.A.73.AQJT9 5.KQJ72.654.K876 7642.983.AQJT.52"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "6S"]
+[Result "12"]
+[Auction "E"]
+2D      Pass    2S      Pass    
+3S      Pass    5S      Pass    
+6S      Pass    Pass    Pass    
+[Play "N"]
+S3
+*
+{Comment:
+2\D = Forcing de manche. On peut aussi ouvrir d'1\C.
+2\S = Un As sans Roi.
+5\S = Enchère "au poids".
+6\S = Partenaire, vous avez bien dit que vous aviez du jeu?
+Après trois tours d'atout, jouez \CA et \CD. Prenez le retour \D de l'As et défaussez les trois \D perdants sur les trois \C du mort, assurant votre contrat.
+Ceux d'entre-vous qui auront espéré la réussite d'une impasse sur deux seront bien déçus.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     200       0     99       0      11     15 
+     1     150       0     99       0      11     15 
+     5     100       0     98       1      10     14 
+    93      50       0     87      12      10     14 
+     1       0     150     76      23       6     13 
+     7       0     200     75      24       5     13 
+     3       0     400     74      25       0     11 
+     5       0     420     73      26      -1     11 
+   210       0     450     48      51      -2     11 
+    40       0     480     19      80      -3     11 
+     1       0     490     14      85      -3     10 
+    63       0     980      7      92     -11      0 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "3"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:4.AKJT.J976.5432 9532.876.AQ5.J87 KQ8.Q92.KT432.T9 AJT76.543.8.AKQ6"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "9"]
+[Auction "S"]
+Pass    1S      Pass    2S      
+Pass    3D      Pass    3S      
+Pass    Pass    Pass    
+[Play "N"]
+HA
+*
+{Comment:
+Séquence 1 : 3\D = Enchère d'essai dans la courte.
+Séquence 2 : 3\H = Enchère d'essai dans la couleur "trouée".
+La défense encaisse les trois premières levées avant de rejouer \C.
+On a le droit de perdre une levée d'atout, mais pas deux. Le meilleur maniement n'est pas de tirer l'As en tête mais de tenter la double impasse, soit \S vers le Valet.
+Neuf levées pour ce bon maniement.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     800       0    100       0      13     14 
+     2     500       0     99       0      11     12 
+     1     400       0     99       0      10     11 
+     1     300       0     99       0       8     10 
+    47     200       0     93       6       6      8 
+     2     110       0     87      12       4      6 
+   127     100       0     72      27       4      6 
+     1       0       0     57      42       1      4 
+     7       0      50     57      43       0      3 
+     9       0     100     55      44      -2      1 
+    31       0     110     50      49      -2      1 
+   162       0     140     28      72      -3      0 
+     2       0     150      9      91      -3      0 
+    15       0     170      7      93      -4     -1 
+     4       0     300      4      95      -6     -4 
+     3       0     500      4      96     -10     -8 
+    15       0     620      1      98     -11    -10 
+     1       0     730      0     100     -12    -11 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "4"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:93.AQ8.KT874.Q87 QJ4.7543.53.KJT4 T2.JT92.AJ92.932 AK8765.K6.Q6.A65"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "9"]
+[Auction "W"]
+1S      Pass    2S      Pass    
+2NT     Pass    3S      Pass    
+Pass    Pass    
+[Play "N"]
+D4
+*
+{Comment:
+2SA = Enchère d'essai généralisé.
+3\S = Minimum.
+Sud prend l'entame \D de l'As et, voyant que la défense ne fera pas plus de deux levées dans la couleur, contre-attaque C?ur. Nord fait deux levées à C?ur et tire le \DR, puis rejoue C?ur. A Ouest de trouver la \CD pour réussir son contrat...
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+    26     200       0     97       2       9      8 
+   124     100       0     79      20       8      6 
+     1       0      90     65      35       4      2 
+     1       0     110     64      35       3      1 
+     1       0     120     64      35       3      1 
+    41       0     140     59      40       2      0 
+    74       0     170     46      53       2     -1 
+    16       0     200     35      64       1     -2 
+   126       0     620     19      80      -9    -10 
+    20       0     650      2      97     -10    -11 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "5"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:AJT765.65.A5.K76 K8.K3.QT832.Q932 4.AQ74.K764.A854 Q932.JT982.J9.JT"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1S      Pass    2C      Pass    
+2S      Pass    3NT     Pass    
+Pass    Pass    
+[Play "W"]
+HJ
+*
+{Comment:
+Laissez passer le Roi de C?ur d'Est et prenez la continuation. Si les \S sont 3-3, peu importe comment vous les manierez ; mais pour le cas le plus probable d'un partage 4-2, tirez l'As et rejouez un petit. Est prend du Roi et rejoue \D pour l'As du mort. Rejouez le \SV. Ouest fait sa Dame, mais vous pouvez maintenant tabler pour dix levées.
+Une variante : Est jette son \SR sous l'As, vous chutez?
+Que nenni, mais ça se complique. Vous rejouez le Valet, Ouest prend et poursuit à C?ur. Vous encaissez As-Roi dans chaque mineure et remettez Ouest en main à C?ur en jouant la Dame et un petit, il sera contraint de jouer sous son 9 de \S.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     3     660       0     99       0      12      1 
+     3     650       0     99       0      12      1 
+    12     630       0     97       2      12      0 
+    27     620       0     92       7      12      0 
+    20     600       0     87      12      12     -1 
+     1     250       0     84      15       8     -9 
+     3     200       0     84      15       7    -10 
+     1     180       0     83      16       6    -10 
+     7     170       0     82      17       6    -10 
+     1     150       0     82      18       6    -10 
+    11     140       0     80      19       5    -10 
+     1     110       0     79      20       5    -11 
+     1     100       0     79      21       5    -11 
+     2      90       0     78      21       4    -11 
+   150       0     100     60      39      -1    -12 
+   174       0     200     23      77      -4    -13 
+    11       0     300      1      98      -6    -14 
+     1       0     400      0     100      -8    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "6"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:QT2.KT832.2.AT92 AK54.Q6.A5.KJ654 J983.954.QJ83.Q8 76.AJ7.KT9764.73"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "E"]
+1C      Pass    1D      1H      
+1S      Pass    1NT     Pass    
+2NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "N"]
+H2
+*
+{Comment:
+1SA = 6-10 H.
+2SA = Proposition.
+Placez la Dame de C?ur du mort, qui fait la levée, et tirez As et petit \D.
+- Si Sud fournit petit, placez le 9 pour assurer cinq levées en cas de mauvais partage.
+- Si Sud intercale un honneur, c'est encore plus facile..
+Quand Nord défausse, tirez le Roi et rejouez le 10, réalisant vos neuf levées.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     400       0     99       0      11     14 
+    28     300       0     96       3       9     14 
+    76     200       0     84      15       7     13 
+   104     100       0     63      36       5     12 
+     4       0      50     50      49       2     11 
+     4       0      90     49      50       1     11 
+     2       0     100     49      50       0     11 
+    26       0     110     45      54       0     10 
+    10       0     120     41      58       0     10 
+    23       0     130     37      62      -1     10 
+     2       0     140     34      65      -1     10 
+    16       0     150     32      67      -1     10 
+     1       0     180     30      69      -2      9 
+     2       0     200     30      69      -3      9 
+     2       0     300     30      70      -5      7 
+     2       0     500     29      70      -9      3 
+    86       0     600     19      80     -10      0 
+    32       0     630      5      94     -11     -1 
+     6       0     660      1      99     -11     -2 
+     1       0     800      0      99     -12     -5 
+     1       0    1100      0     100     -14    -11 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "7"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:KJ83.T7.K92.8732 754.43.AQT73.654 A92.J98652.J.JT9 QT6.AKQ.8654.AKQ"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "S"]
+Pass    2NT     Pass    3C      
+Pass    3NT     Pass    Pass    
+Pass    
+[Play "N"]
+S3
+*
+{Comment:
+Sud prend l'entame \S de l'As et en rejoue. Nord encaisse ses \S et sort à C?ur.
+Quelle est le meilleur maniement à \D?
+Avec neuf cartes, votre meilleure chance consiste à faire l'impasse au Roi. Quand Sud fournit le Valet, revenez en main et rejouez \D pour le 10. Voilà neuf levées.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+    12     200       0     98       1      12     13 
+    58     100       0     90       9      12     12 
+     1       0     100     83      16       9     11 
+     1       0     110     83      16       9     10 
+     8       0     120     82      17       9     10 
+     1       0     130     81      18       9     10 
+     1       0     140     81      19       8     10 
+     8       0     150     80      20       8     10 
+    11       0     180     77      22       8      9 
+     5       0     200     75      24       7      9 
+     7       0     210     74      25       7      9 
+     1       0     240     73      26       6      8 
+     2       0     300     73      26       5      7 
+   155       0     600     54      45      -3      0 
+    66       0     630     28      71      -4     -1 
+    78       0     660     12      87      -4     -2 
+     6       0     690      2      97      -5     -3 
+     2       0     710      1      98      -5     -3 
+     2       0     720      0      99      -6     -3 
+     1       0    1100      0      99     -12    -11 
+     2       0    1460      0      99     -14    -13 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "8"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:KJT2.T2.J9832.T9 A4.K84.A4.AQJ754 Q983.93.KQT7.832 765.AQJ765.65.K6"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "7NT"]
+[Result "13"]
+[Auction "W"]
+2H      Pass    2NT     Pass    
+3C      Pass    5NT     Pass    
+7H      Pass    7NT     Pass    
+Pass    Pass    
+[Play "S"]
+DK
+*
+{Comment:
+2\H = Six belles cartes, 6-10 H.
+2SA = Relais interrogatif.
+3\C = Le Roi ou l'As, maximum.
+5SA = Joséphine.
+7\H = Deux gros honneurs.
+7SA = Dans ce cas, je compte 14 levées...
+"La sagesse, c'est d'être fou quand les circonstances en valent la peine." COCTEAU
+Avez-vous atteint le top-score de 7SA? Si oui, vous n'avez pas eu de problème à la carte.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2      50       0     99       0      12     17 
+     1       0     130     99       0      11     16 
+     1       0     150     99       0      10     16 
+     2       0     170     98       1      10     16 
+     5       0     190     98       1      10     16 
+     1       0     200     97       2      10     16 
+     1       0     210     97       2      10     16 
+     1       0     230     97       3       9     15 
+     2       0     260     96       3       9     15 
+     2       0     270     96       3       9     15 
+     5       0     400     95       4       6     15 
+     1       0     420     94       5       6     15 
+     1       0     440     94       5       5     14 
+     2       0     460     94       6       5     14 
+     6       0     480     93       6       4     14 
+   248       0     510     63      36       4     14 
+    17       0     520     32      67       3     14 
+     3       0     710     30      69      -2     13 
+     1       0     940     29      70      -7     11 
+     1       0     980     29      70      -8     11 
+   119       0    1010     15      84      -9     11 
+     1       0    1020      1      98      -9     11 
+     3       0    1510      0      99     -13      0 
+     2       0    1520      0      99     -13      0 
+     1       0    1770      0     100     -15     -6 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "9"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AKQJ65.AKQ.AQ95. 432.84.KJ86.KT65 T98.JT965.43.QJ3 7.732.T72.A98742"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "6S"]
+[Result "12"]
+[Auction "N"]
+2D      Pass    2H      Pass    
+2S      Pass    4S      Pass    
+6S      Pass    Pass    Pass    
+[Play "E"]
+S2
+*
+{Comment:
+2\D = Forcing de manche. 2\H = Pas d'As, pas de jeu. 4\S = Soutien faible (sinon 3\S).
+6\S = Une des plus belles mains que vous ayez jamais eu.
+Si vous avez reçu l'entame atout, vous n'avez probablement pas gagné ce chelem. Mais n'en soyez pas contrarié, car cette donne n'est là que pour sa pureté et pour vous montrer jusqu'où peut aller la technique, quand on a de l'imagination...
+Si les \S sont 2-2, vous n'aurez pas de mal à totaliser douze levées. Mais quand Ouest fournit le 7, il semble bien que les atouts soient 3-1. Si vous tentez l'impasse à \D et qu'elle rate, Est va rejouer atout, et vous ne pourrez couper qu'un seul \D. Comment exploiter les C?urs du mort? Il faut vous débarrasser d'un de vos honneurs pour ne pas bloquer la couleur. Jouez la \CD du mort et sur l'As d'Ouest défaussez l'As de C?ur. Prenez le retour \D de l'As, tirez Roi-Dame de C?ur, l'\SA et petit \S vers le mort...
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1210       0    100       0      13      6 
+     8    1010       0     98       1      11      1 
+    85     980       0     88      11      11      0 
+     3     520       0     77      22       3    -10 
+     9     510       0     76      23       3    -10 
+    57     480       0     68      31       2    -11 
+     5     460       0     61      38       1    -11 
+    99     450       0     49      50       1    -11 
+     1     430       0     37      62       0    -11 
+    31     420       0     33      66       0    -11 
+     7     230       0     29      70      -5    -13 
+     5     200       0     28      72      -6    -13 
+     4     170       0     27      73      -6    -13 
+     1     100       0     26      73      -8    -13 
+    84       0      50     16      83     -10    -14 
+    27       0     100      3      96     -11    -14 
+     2       0     150      0      99     -11    -15 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "10"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:KJ7.7643.K42.Q74 32.KJT92.JT93.T9 QT9865.A5.AQ5.65 A4.Q8.876.AKJ832"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3S"]
+[Result "9"]
+[Auction "E"]
+Pass    1S      2C      2S      
+Pass    3S      Pass    Pass    
+Pass    
+[Play "W"]
+CA
+*
+{Comment:
+2\C = Six cartes ou cinq belles, 11-17 H.
+2\S = 6-10 S.
+3\S = Barrage.
+Ouest fait les deux premières levées à \C et en rejoue. Surcoupez Est et jouez atout.
+Vous donnerez encore une levée à C?ur, mais ce sera tout.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     790       0    100       0      12     12 
+    28     620       0     96       3      11     10 
+     2     600       0     93       6      11     10 
+     1     500       0     92       7       9      8 
+     1     400       0     92       7       7      6 
+     4     300       0     91       8       5      4 
+     6     200       0     90       9       3      2 
+    32     170       0     86      13       2      1 
+   230     140       0     55      44       2      0 
+     3     100       0     28      71       0     -1 
+   116       0     100     14      85      -5     -6 
+     1       0     110      0      99      -5     -6 
+     1       0     150      0      99      -6     -7 
+     1       0     200      0      99      -7     -8 
+     1       0     620      0      99     -12    -13 
+     1       0     710      0     100     -13    -13 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "11"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:8543.85.AJT3.874 J2.QJ732.K984.T6 KQ76.AT94.Q76.A2 AT9.K6.52.KQJ953"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "2C"]
+[Result "8"]
+[Auction "S"]
+1NT     x       Pass    2C      
+Pass    Pass    Pass    
+[Play "S"]
+SK
+*
+{Comment:
+1SA = 15-17 H.
+Si dans votre système, le Contre montre un unicolore indéterminé ou précisément des \C, vous avez trouvé cette partielle.
+Après avoir purgé les atouts, vous jouez le Roi de C?ur, laissé passé, puis C?ur pour l'As de Sud. Quelle que soit la contre-attaque de ce dernier, vous ne perdrez qu'une levée par couleur, réalisant donc votre contrat avec une levée de mieux.
+Si le camp Nord-Sud a joué 1SA, il a chuté de deux levées.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     300       0    100       0       9      9 
+     3     150       0     99       0       6      6 
+     3     140       0     98       1       5      6 
+    10     110       0     97       2       5      6 
+    13     100       0     94       5       5      5 
+    10      90       0     92       8       4      5 
+    68      50       0     82      17       3      4 
+    58       0      50     68      31       1      2 
+    22       0      90     58      41      -1      1 
+    77       0     100     47      52      -1      0 
+   127       0     110     23      76      -1      0 
+     1       0     120      8      91      -2      0 
+    13       0     130      7      93      -2     -1 
+     1       0     140      5      94      -2     -1 
+    11       0     150      4      96      -2     -1 
+     1       0     170      2      97      -3     -2 
+     2       0     200      2      97      -4     -3 
+     1       0     280      1      98      -5     -5 
+     1       0     300      1      98      -6     -5 
+     3       0     400      1      98      -8     -7 
+     4       0     470      0      99      -9     -8 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "12"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:87.AJ7.AT64.AJT7 Q32.T932.Q952.Q8 A4.KQ84.83.K9543 KJT965.65.KJ7.62"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "W"]
+2S      x       Pass    2NT     
+Pass    3C      Pass    3NT     
+Pass    Pass    Pass    
+[Play "W"]
+SJ
+*
+{Comment:
+2\S = Six belles cartes, 6-10 H.
+X = D'appel.
+2SA = Mini cue-bid.
+3SA = Quatre cartes à C?ur plus arrêt à \S.
+Si vous jouez à l'atout C?ur, afin de réduire les communications adverses, laissez passer l'entame \S et prenez au deuxième tour. Les atouts risquant fort d'être 4-2, tirez seulement l'As et le Valet, gardant un atout au mort pour éventuellement couper à \S. Attaquez-vous sans tarder à l'affranchissement des \C en jouant l'As et le Valet, que vous avez l'intention de laisser courir. Mais quand Est couvre de la Dame, prenez et purgez les atouts réalisant onze levées.
+Les mêmes onze levées à SA, mais en tremblant un peu...
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     990       0    100       0      12      8 
+     1     950       0     99       0      12      7 
+     4     690       0     99       0       9      1 
+     3     680       0     98       1       8      1 
+    36     660       0     93       6       8      0 
+    63     650       0     82      17       8      0 
+     4     630       0     74      25       7     -1 
+    55     620       0     67      32       7     -1 
+     3     600       0     60      39       7     -2 
+     9     500       0     59      40       5     -4 
+     5     300       0     57      42      -1     -8 
+     1     240       0     56      43      -2     -9 
+     1     210       0     56      43      -3    -10 
+    13     200       0     55      45      -3    -10 
+     1     180       0     53      46      -4    -10 
+    49     170       0     47      52      -4    -10 
+    19     150       0     39      60      -5    -11 
+     4     140       0     36      63      -5    -11 
+     4     130       0     35      64      -5    -11 
+     1     110       0     35      64      -5    -11 
+    48     100       0     29      70      -6    -11 
+    58      50       0     17      82      -7    -12 
+    19       0     100      8      91      -9    -13 
+     7       0     110      5      94     -10    -13 
+     6       0     140      3      96     -10    -13 
+     1       0     170      2      97     -10    -13 
+     9       0     200      1      98     -11    -13 
+     2       0     300      0      99     -12    -14 
+     1       0     470      0     100     -13    -15 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "13"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:Q5.A65.54.AK7654 432.T932.JT2.T92 K76.KQ7.AQ763.83 AJT98.J84.K98.QJ"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1C      Pass    1D      1S      
+2C      Pass    3NT     Pass    
+Pass    Pass    
+[Play "W"]
+SJ
+*
+{Comment:
+Prenez l'entame \S de la Dame et entrez en main par le Roi de C?ur pour jouer un petit \C. Si Ouest fournit le Valet, prenez du Roi. En effet, vous ne voulez pas laisser Est surprendre de la Dame et rejouer \S. Revenez en main par la Dame de C?ur et rejouez \C.
+Quand Ouest fournit la Dame, laissez-le faire la levée. Vous n'aurez alors plus aucune difficulté à scorer 630.
+Les experts feront même onze levées... Après la \CD, Ouest rejoue C?ur (sinon, la onzième levée arrive "toute seule") pour l'As du mort et vous encaissez les quatre \C maîtres, en défaussant un \S et trois \D. Si Ouest "sèche" l'\SA, vous jouez la couleur, il devra se jeter dans votre fourchette \D. S'il ne le fait pas, jouez \D pour l'As, le Roi devrait s'écraser... Plus deux, 660.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1370       0    100       0      14     12 
+     5     690       0     99       0       9      2 
+    73     660       0     90       9       9      1 
+    99     630       0     70      29       8      0 
+    36     600       0     54      45       8     -1 
+     4     180       0     49      50      -3    -10 
+     3     150       0     49      51      -4    -10 
+     6     130       0     47      52      -4    -11 
+     9     120       0     46      53      -4    -11 
+     7     110       0     44      55      -5    -11 
+     1      90       0     43      56      -5    -11 
+   119       0     100     29      70      -9    -12 
+    62       0     200      8      91     -10    -13 
+     5       0     300      0      99     -11    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "14"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:863.7642.73.AQJ9 J92.AJT95.A8.K76 AKT74.K.KQJT6.53 Q5.Q83.9542.T842"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "9"]
+[Auction "E"]
+1H      2H      Pass    2S      
+Pass    3S      Pass    4S      
+Pass    Pass    Pass    
+[Play "E"]
+S2
+*
+{Comment:
+2\H = Bicolore au moins 5-5, \S et une mineure indéterminée.
+3\S = Effort de manche.
+En admettant un partage 3-2 des atouts, le contrat semble reposer sur l'impasse à \C, laquelle devrait échouer du fait de l'ouverture en Est. Vous vous rabattez sur l'exploitation des \D, espérant pouvoir défausser les \C du mort, afin de couper le deuxième de votre main.
+\D donc, jusqu'à faire tomber l'As mais Est, en main, rejoue atout. Vous prenez, encaissez vos trois \D maîtres, en défaussant trois \C au mort, jouez \C pour l'As et C?ur. Mais Est plonge de l'As, encaisse le \SV et le \CR. Quelle défense...
+Si vous encaissez l'\CA plus tôt, Est vous battra en coupant un \D et en encaissant l'As de C?ur et le \CR.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     650       0    100       0      11     13 
+     4     450       0     99       0       9     11 
+     1     430       0     98       1       8     11 
+    49     420       0     93       7       8     11 
+     4     200       0     86      13       3      7 
+    56     170       0     79      20       3      7 
+   112     140       0     60      39       2      6 
+     1     130       0     47      52       2      6 
+    21     110       0     44      55       1      5 
+     5     100       0     41      58       1      5 
+     3      90       0     40      59       0      5 
+     1      80       0     40      59       0      5 
+     1      50       0     39      60      -1      4 
+   125       0      50     25      74      -4      2 
+    34       0     100      6      93      -5      0 
+     9       0     150      1      98      -6     -2 
+     3       0     200      0      99      -7     -3 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "15"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:QJ85.A43.T5.K974 T32.K87652.A9.62 A.QJ9.K7643.QJT8 K9764.T.QJ82.A53"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3C"]
+[Result "9"]
+[Auction "S"]
+1D      1S      1NT     2S      
+3C      Pass    Pass    Pass    
+[Play "W"]
+HT
+*
+{Comment:
+1SA = 8-10 H, arrêt \S.
+2\S et 3\C = Compétitifs.
+Ne laissez pas passer le 10 de C?ur, vous vous exposeriez à subir deux coupes dans la couleur. Prenez plutôt de l'As et jouez \D pour votre Roi, puis encore \D. Est prend de l'As, tire le Roi de C?ur, puis donne une coupe à C?ur à son partenaire. Celui-ci rejoue \D, que vous coupez du 7 de \C. Venez en main par l'\SA et finissez en double coupe.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     800       0    100       0      13     12 
+     1     710       0     99       0      12     12 
+     1     660       0     99       0      12     11 
+     4     630       0     98       1      11     11 
+    36     600       0     94       5      11     10 
+     6     500       0     89      10      10      9 
+    10     300       0     87      12       6      5 
+     2     210       0     86      13       4      3 
+     2     200       0     85      14       4      3 
+     2     180       0     85      14       4      2 
+    47     150       0     79      20       3      1 
+     3     130       0     73      26       2      1 
+    33     120       0     69      30       2      0 
+    25     110       0     62      37       2      0 
+    36     100       0     55      44       2      0 
+     5      90       0     50      49       1     -1 
+    66      50       0     42      57       0     -2 
+    71       0     100     26      73      -4     -5 
+    29       0     110     14      85      -4     -6 
+     2       0     140     11      88      -5     -6 
+    36       0     200      6      93      -6     -7 
+     5       0     300      1      98      -8     -9 
+     2       0     470      1      98     -11    -11 
+     1       0     500      0      99     -11    -12 
+     2       0     530      0      99     -11    -12 
+     1       0     800      0     100     -13    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "16"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:A987.K876.AK5.A8 6532.432.Q42.KJ2 KQJT.AQ.963.T954 4.JT95.JT87.Q763"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "6S"]
+[Result "12"]
+[Auction "W"]
+Pass    1D      Pass    1S      
+Pass    3NT     Pass    4H      
+Pass    4NT     Pass    5S      
+Pass    6S      Pass    Pass    
+Pass    
+[Play "W"]
+HJ
+*
+{Comment:
+3SA ou 4\S = Le fit, 18-19 H.
+4\H ou 5\H = Contrôle.
+5\S = Deux clés avec la Dame d'atout.
+Le choix de la main de base avec les atouts 4-4 est souvent important.
+La plupart du temps, il faut imaginer le plan de jeu de différentes manières. Ici, couper deux \C avec les atouts de Nord est probablement plus facile car les trois rentrées nécessaires se trouvent facilement : deux à l'atout et une à C?ur (seul un singleton à C?ur vous ferait chuter).
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1020       0    100       0      12      1 
+     2     990       0     99       0      11      0 
+    39     980       0     94       5      11      0 
+    84     480       0     80      19       2    -11 
+    11     460       0     69      30       2    -11 
+   129     450       0     52      47       1    -11 
+    35     430       0     33      66       1    -11 
+    53     420       0     23      76       0    -11 
+     1     400       0     16      83       0    -11 
+     2     230       0     16      83      -5    -13 
+     4     200       0     15      84      -5    -13 
+     1     180       0     15      84      -6    -13 
+     3     170       0     14      85      -6    -13 
+     1     150       0     14      85      -6    -13 
+    49       0      50      8      91     -10    -14 
+    11       0     100      1      98     -11    -14 
+     1       0     110      0     100     -11    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "17"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:KQ54.A96.AJ6.A85 JT982.Q82.KQ92.9 A.K75.8754.QT764 763.JT43.T3.KJ32"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "8"]
+[Auction "N"]
+1C      1S      3C      Pass    
+3NT     Pass    Pass    Pass    
+[Play "E"]
+SJ
+*
+{Comment:
+1\S = 8-17 H.
+3\C = 11-12 S.
+Le déclarant prend l'entame de votre partenaire de l'As et joue \C pour l'As, puis le 8 qu'il surprend du 10, vous laissez passer afin de couper ses communications avec le mort.
+Voyant que les \C deviennent inexploitables, Nord va se rabattre sur les \D, espérant un partage favorable... Il sera limité à huit levées.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     650       0    100       0      10     13 
+     3     490       0     99       0       7     11 
+    28     460       0     95       4       6     11 
+    77     430       0     83      16       6     11 
+   108     400       0     61      38       5     11 
+     3     210       0     48      51       0      7 
+     8     180       0     47      52      -1      7 
+     8     150       0     45      54      -2      6 
+     1     130       0     44      55      -2      6 
+     6     120       0     43      56      -2      6 
+     7     110       0     42      57      -3      5 
+     1     100       0     41      58      -3      5 
+     1      90       0     41      58      -3      5 
+     2      50       0     40      59      -4      4 
+    91       0      50     29      70      -6      2 
+    74       0     100     10      89      -7      0 
+     7       0     150      0      99      -8     -2 
+     1       0     300      0     100     -11     -5 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "18"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:T82.A972.AT9.KQT AKQ.Q843.K843.J6 J7653.T65.J72.52 94.KJ.Q65.A98743"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "7"]
+[Auction "E"]
+1NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "S"]
+S5
+*
+{Comment:
+1SA = 15-17 H.
+3SA = 9-15 H.
+Le déclarant prend votre 8 de \S du Roi et laisse courir le \CV, que vous prenez de la Dame. Les adversaires ont environ 26 points d'honneurs, et en y ajoutant ce que vous possédez, vous n'avez pas de mal à réaliser que votre partenaire doit contempler une main quasi-nulle.
+Quand le mort possède une couleur longue et peu de rentrées, il est toujours utile d'essayer de les détruire. Ici, rejouez un petit C?ur. Le mort prend du Valet et joue \CA et \C. Prenez, tirez l'As de C?ur, et rejouez C?ur ou \S. Le déclarant sera limité à sept levées.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     300       0    100       0      11      5 
+     4     200       0     99       0       9      3 
+    29     150       0     95       4       9      2 
+    61     100       0     85      15       8      0 
+    68      50       0     69      30       7     -2 
+     3       0     110     61      38       3     -5 
+     5       0     120     60      39       3     -6 
+     2       0     130     59      40       3     -6 
+    10       0     150     58      41       2     -6 
+     1       0     180     57      42       1     -7 
+   230       0     400     30      69      -5    -11 
+    13       0     430      1      98      -5    -11 
+     1       0     460      0     100      -6    -11 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "19"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:AJ73.QT9.Q86.JT3 KQ86.K76.A73.874 52.AJ5.JT95.AKQ2 T94.8432.K42.965"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "8"]
+[Auction "S"]
+1NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "W"]
+ST
+*
+{Comment:
+Sur cette donne, tout se joue à l'entame. Allez-vous choisir le 10 de \S ou le 4 de C?ur, une entame mineure semblant exclue?
+Sur entame \S, le déclarant ne pourra pas s'en sortir, les cartes intermédiaires dans la couleur lui faisant cruellement défaut. Trois \S et deux \D, une levée de chute.
+Sur entame C?ur, qui lui enlève une épine du pied, il pourra s'en sortir s'il plonge de l'\SA quand vous jouerez la couleur après le \DR. En main à l'\DA, Est ne pourra empocher plus de deux \S, le Valet du mort faisant bonne garde.
+Alors \S ou C?ur? Ma préférence pour \S, couleur plus courte mais séquencée, d'autant qu'avec très peu de jeu, il n'est pas idiot de chercher la couleur longue du partenaire qui, lui, devrait sans doute avoir des reprises de main.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     630       0     99       0       7     12 
+     1     460       0     99       0       3     11 
+   237     430       0     71      28       2     10 
+    76     400       0     35      64       2     10 
+     1     200       0     26      73      -4      6 
+    23     180       0     23      76      -5      6 
+     6     150       0     20      79      -5      5 
+     9     120       0     18      81      -6      5 
+     2     110       0     17      82      -6      4 
+     1      90       0     17      83      -6      4 
+    63       0      50      9      90      -9      0 
+     9       0     100      1      98     -10     -2 
+     1       0     150      0     100     -11     -3 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "20"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:K2.AKJ74.64.A943 98.T98.T952.QJ86 A743.Q532.Q83.72 QJT65.6.AKJ7.KT5"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4H"]
+[Result "10"]
+[Auction "W"]
+1S      2H      Pass    3H      
+Pass    4H      Pass    Pass    
+Pass    
+[Play "E"]
+S9
+*
+{Comment:
+Intervention dans cinq cartes seulement mais avec 15 H et une belle couleur. Contrer n'est pas envisageable car sur une réponse à 2\D de Sud, 2\H montrerait plus de jeu.
+Vous allez devoir couper deux de vos perdantes à \C au mort, en ayant préalablement donné un coup à blanc dans la couleur pour garder une communication avec votre main.
+Vous aurez également besoin du \SR pour revenir en main, aussi devez-vous prendre l'entame de l'As.
+Le coup à blanc à \C est pris par Est qui renvoie atout. Vous pouvez alors couper un premier \C, venir en main au \SR, couper un deuxième \C de la Dame, puis purger les atouts et abandonner vos deux \D perdants à la défense.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     3     800       0     99       0      12      5 
+     3     730       0     99       0      12      3 
+    88     620       0     88      11      11      0 
+     2     400       0     78      22       7     -6 
+     5     300       0     77      22       5     -8 
+     6     200       0     75      24       2     -9 
+    27     170       0     72      27       2    -10 
+     1     150       0     68      31       1    -10 
+   110     140       0     55      44       1    -10 
+     1     120       0     43      57       0    -11 
+     3     110       0     42      57       0    -11 
+     3     100       0     41      58      -1    -11 
+     4       0      80     41      59      -5    -12 
+   166       0     100     21      78      -6    -12 
+     1       0     110      1      98      -6    -12 
+     1       0     140      1      98      -6    -13 
+     7       0     200      0      99      -8    -13 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "21"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:95.T985.J.KT9832 AQ874.Q3.AK42.AQ T6.AK74.QT98.J74 KJ32.J62.7653.65"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+Pass    1S      Pass    2S      
+Pass    4S      Pass    Pass    
+Pass    
+[Play "S"]
+HA
+*
+{Comment:
+1\S = Malgré la force de la main, mieux vaut ouvrir d'1\S pour décrire le bicolore à saut.
+4\S = La réponse du partenaire rendant le chelem très aléatoire, inutile de dévoiler sa main à l'ennemi.
+Vous avez beaucoup de perdantes : deux C?urs, deux \D et un \C.
+Comme vous ne savez pas si les \D sont 3-2 ou 4-1, vous commencerez par défausser un \D sur le Valet de C?ur du mort. Lorsque vous aurez purgé les atouts, testez les \D. Leur mauvaise répartition vous oblige à tenter l'impasse au \CR, qui est heureusement gagnante.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     800       0    100       0      14     15 
+     1     200       0     99       0       9     12 
+     1     150       0     99       0       8     11 
+    13     100       0     97       2       7     11 
+   175      50       0     76      24       6     10 
+     2       0     110     55      44       3      7 
+     2       0     120     54      45       2      7 
+     6       0     140     54      46       2      7 
+    10       0     170     52      47       1      6 
+     1       0     200     50      49       0      6 
+     8       0     400     49      50      -5      1 
+   194       0     420     26      73      -6      0 
+     1       0     430      3      96      -6      0 
+    13       0     450      1      98      -6     -1 
+     1       0     460      0      99      -6     -1 
+     1       0     590      0     100      -9     -5 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "22"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:93.QJT2.QT.Q8542 KT2.K63.A9652.63 87.984.KJ74.AJT9 AQJ654.A75.83.K7"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[Auction "E"]
+Pass    Pass    1S      Pass    
+2C      Pass    4S      Pass    
+Pass    Pass    
+[Play "N"]
+HQ
+*
+{Comment:
+2\C est Drury. Nous vous proposons un nouveau Drury simplifié : il implique toujours le fit.
+Ceci entraîne les modifications suivantes :
+2\D = Cinq \S plus quatre ou cinq cartes à \D, avec ambition de chelem.
+2\H = Naturel, forcing de manche. 2\S = Arrêt.
+2SA = 14 H réguliers pour jouer 3\S ou 4\S.
+3\C = Cinq \S plus quatre ou cinq cartes à \C avec ambition de chelem.
+3\D, 3\H = 5-5 à honneurs concentrés, ambition de chelem.
+3SA = 15-19 H pour jouer 3SA ou 4\S.
+4\S = Pour les jouer avec une ouverture convenable sans ambition de chelem.
+Condition obligatoire : l'\CA placé. Si tel est le cas, onze levées au rendez-vous avec les \D 4-2 grâce à un coup à blanc dans la couleur (vous avez quatre remontées au mort).
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     500       0    100       0      14     15 
+     2     200       0     99       0      12     13 
+    35     100       0     95       4      12     13 
+     1       0     110     91       8       9     11 
+     8       0     140     90       9       9     11 
+     1       0     150     89      11       9     11 
+    60       0     170     81      18       8     10 
+    10       0     200     73      26       8     10 
+   202       0     620     48      51      -3      1 
+   102       0     650     13      86      -3      0 
+     3       0     680      1      98      -4     -1 
+     4       0     800      0      99      -7     -4 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "23"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:T83.KQT7.QT95.KT 97.9642.872.QJ93 65.853.J4.A76542 AKQJ42.AJ.AK63.8"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4S"]
+[Result "10"]
+[Auction "S"]
+Pass    2D      Pass    2H      
+Pass    2S      Pass    2NT     
+Pass    3D      Pass    3S      
+Pass    4S      Pass    Pass    
+Pass    
+[Play "N"]
+HK
+*
+{Comment:
+2\D = Forcing de manche.
+2\H = Pas d'As, pas de jeu.
+Si les \D sont partagés 3-3, vous n'en perdrez qu'un, mais, s'ils sont 4-2, vous pouvez prendre la chance de trouver le 10 d'atout dans la main des quatre \D.
+Jouez donc immédiatement As-\DR et \D. Telles que sont les cartes, vous allez pouvoir couper le dernier \D du 9 de \S.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     400       0    100       0      11     14 
+    13     300       0     98       1      10     14 
+    22     200       0     94       5       8     13 
+   116     100       0     77      22       6     12 
+     1       0     100     64      36       2     11 
+   126       0     140     48      51       0     10 
+    34       0     170     30      70      -1     10 
+     3       0     200     25      74      -2      9 
+     3       0     210     24      75      -2      9 
+     1       0     400     24      75      -6      6 
+     3       0     600     23      76     -10      1 
+    80       0     620     14      85     -10      0 
+     5       0     630      4      96     -10      0 
+    11       0     650      2      97     -11     -1 
+     3       0     660      0      99     -11     -1 
+     1       0     690      0     100     -11     -2 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "24"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:A3.AJ8763.A7.K63 KJ6.54.5432.8754 T9742.T2.986.QT2 Q85.KQ9.KQJT.AJ9"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "2H"]
+[Result "7"]
+[Auction "W"]
+1D      1H      Pass    Pass    
+1NT     2H      Pass    Pass    
+Pass    
+[Play "E"]
+D4
+*
+{Comment:
+1SA = 18-19 H réguliers, dans cette situation de réveil.
+Prenez l'entame \D et jouez \C pour le 10 en espérant :
+1) Le Valet en Est,
+2) Être au mort pour jouer C?ur afin de vous protéger contre Roi- Dame en Ouest.
+Pas de chance, Ouest prend du Valet, rejoue \DR et \D et, quelques instants plus tard, laisse passer votre \CR. Bien joué, Ouest.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     530       0     99       0      11     12 
+     2     470       0     99       0      10     11 
+     7     300       0     98       1       7      9 
+     2     200       0     97       2       5      7 
+     1     170       0     96       3       5      7 
+     6     150       0     96       3       4      6 
+    20     140       0     93       7       4      6 
+    48     110       0     85      15       3      5 
+    34     100       0     75      24       3      5 
+     2      90       0     71      29       3      5 
+     4      80       0     70      29       3      5 
+    58      50       0     62      37       2      4 
+   103       0      50     43      56      -1      2 
+     3       0      90     31      68      -2      0 
+    63       0     100     23      76      -3      0 
+    13       0     110     14      85      -3      0 
+    17       0     120     10      89      -3     -1 
+     1       0     130      8      91      -3     -1 
+     6       0     150      7      92      -4     -2 
+     1       0     200      7      92      -5     -3 
+     1       0     240      6      93      -6     -4 
+    20       0     300      4      95      -7     -5 
+     2       0     400      1      98      -9     -7 
+     1       0     470      1      98     -10     -9 
+     3       0     490      0      99     -10     -9 
+     1       0     500      0      99     -10     -9 
+     2       0     800      0      99     -13    -12 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "25"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "EW"]
+[Deal "N:AQ7.T83.K752.KQT 82.K64.864.96543 643.QJ95.AT3.AJ8 KJT95.A72.QJ9.72"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "N"]
+1D      Pass    1H      1S      
+1NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "E"]
+S8
+*
+{Comment:
+1SA = Nord promet au moins un arrêt à \S et 14 H.
+3SA = Les douze points de Sud lui imposent donc d'appeler la manche.
+Nord ne dispose que de sept levées de tête et doit rendre deux fois la main à C?ur pour y affranchir les deux levées manquantes. Il doit donc espérer un gros honneur à C?ur en Est et laisser passer l'entame afin de couper les communications adverses.
+Si Ouest détient l'As et le Roi de C?ur, le contrat sera sans espoir.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     460       0    100       0       7      2 
+    36     430       0     95       4       6      1 
+     4     420       0     89      10       6      1 
+   121     400       0     73      26       6      0 
+     2     200       0     56      43       1     -5 
+     3     180       0     56      43       0     -6 
+     3     170       0     55      44       0     -6 
+    10     150       0     53      46      -1     -6 
+     8     140       0     51      48      -1     -6 
+    14     120       0     48      51      -2     -7 
+     2     110       0     46      53      -2     -7 
+     1     100       0     45      54      -2     -7 
+     7      90       0     44      55      -2     -7 
+   129       0      50     26      73      -6    -10 
+     1       0      80      9      90      -6    -10 
+    34       0     100      4      95      -7    -11 
+     2       0     150      0      99      -8    -11 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "26"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "All"]
+[Deal "N:932.QJT9.2.J8732 J4.AK876.AQ754.4 AQT8.32.KJ9.AK96 K765.54.T863.QT5"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "9"]
+[Auction "E"]
+1H      x       Pass    2C      
+2D      3C      3D      Pass    
+Pass    Pass    
+[Play "S"]
+CA
+*
+{Comment:
+Séquence compétitive.
+Sud entame l'\CA et contre-attaque As-\SD. Prenez du Roi, tirez As-Roi de C?ur, et rejouez C?ur. Sud fera ses deux levées d'atout mais ce sera tout.
+Ne poussez pas trop les enchères Nord-Sud, huit levées à \C sont la limite de votre potentiel...
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     2     800       0     99       0      13     14 
+     5     600       0     98       1      12     12 
+     1     500       0     98       1      11     12 
+     3     400       0     97       2      10     11 
+     3     300       0     96       3       9      9 
+    26     200       0     93       7       7      7 
+     3     150       0     89      10       6      6 
+    12     120       0     87      12       5      6 
+    12     110       0     84      16       5      6 
+    25     100       0     79      20       5      5 
+     5      90       0     75      24       4      5 
+     1       0      80     74      25       0      1 
+    16       0      90     72      27      -1      1 
+    67       0     100     61      38      -1      0 
+   108       0     110     38      61      -1      0 
+    16       0     130     21      78      -2     -1 
+     2       0     150     19      80      -2     -1 
+     7       0     160     18      81      -3     -2 
+    39       0     200     12      87      -4     -3 
+     9       0     300      5      94      -6     -5 
+     4       0     360      4      95      -7     -6 
+     3       0     380      3      96      -7     -7 
+     1       0     500      2      97     -10     -9 
+     8       0     670      1      98     -12    -11 
+     1       0     710      0      99     -12    -12 
+     1       0     870      0     100     -13    -13 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "27"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "None"]
+[Deal "N:962.QT872.82.K92 J74.K64.A965.754 AQT3.53.JT743.QJ K85.AJ9.KQ.AT863"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3NT"]
+[Result "8"]
+[Auction "S"]
+Pass    1NT     Pass    2NT     
+Pass    3NT     Pass    Pass    
+Pass    
+[Play "N"]
+H7
+*
+{Comment:
+2SA = 8 H.
+"Ne crois pas que tu t'es trompé de route quand tu n'es pas allé assez loin" AVELINE.
+Le déclarant prend l'entame C?ur du 9 et joue un petit \C pour votre Valet. Que peut-il avoir à \C? ARxxx, ou encore A10xxx? Dans tous les cas, la continuation à C?ur est vouée à l'échec.
+Les \S offrant davantage d'espoir, vous devez renvoyer \S. Mais quelle carte?
+- Si Nord possède le Roi, peu importe la carte.
+- Mais si c'est Ouest qui le détient, il est impératif de rejouer la \SD. Ouest prend et joue \CA et \C. Nord prend et rejoue \S...
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     200       0    100       0       9      4 
+     6     150       0     99       1       8      3 
+    29     100       0     94       5       7      2 
+   101      50       0     75      24       6      0 
+     1       0      50     61      38       3     -3 
+     9       0      90     59      40       2     -4 
+     2       0     100     58      41       2     -4 
+    28       0     120     54      45       2     -5 
+     1       0     130     50      50       1     -5 
+    21       0     150     46      53       1     -5 
+    16       0     180     41      58       0     -6 
+     1       0     200     39      60      -1     -6 
+     1       0     300     39      61      -4     -8 
+    76       0     400     28      71      -6    -10 
+    51       0     430     10      89      -6    -10 
+     8       0     460      1      98      -7    -11 
+     1       0     500      0      99      -8    -11 
+     1       0     660      0      99     -10    -12 
+     1       0    1600      0     100     -16    -17 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "28"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "NS"]
+[Deal "N:QJT94.85.972.J97 AK5.KJ43.AJ4.643 863.QT97.KQ863.Q 72.A62.T5.AKT852"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "W"]
+1C      Pass    1H      Pass    
+2C      Pass    3NT     Pass    
+Pass    Pass    
+[Play "S"]
+D6
+*
+{Comment:
+Est, ayant lui-même l'ouverture, conclut à la manche.
+Les \C vous procureront les levées manquantes, s'ils ne sont pas répartis 4-0.
+Donc, \C à la deuxième levée pour la Dame de Sud et le Roi du mort. \S pour l'As et \C vers le mort. Sud défausse... alors petit du mort, pour Nord.
+Celui-ci retourne \D pour votre As, \SR et tous les \C du mort. Sud devra être vigilant et garder sa Dame de C?ur, sinon, le zéro se pointera.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     150       0    100       0      11     12 
+     7     100       0     98       1      11     11 
+    31      50       0     92       7      10     11 
+     1       0     120     87      12       7      8 
+     1       0     150     86      13       7      7 
+     1       0     170     86      13       6      7 
+     4       0     210     85      14       6      6 
+     1       0     300     84      15       4      4 
+     5       0     400     83      16       1      2 
+     1       0     420     82      17       0      1 
+    17       0     430     79      20       0      1 
+   180       0     460     47      52      -1      0 
+    51       0     490      8      91      -2     -1 
+     1       0     500      0      99      -2     -1 
+     1       0     520      0     100      -3     -2 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "29"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "All"]
+[Deal "N:732.QJT.J83.8764 AKQJ6.K72.9765.J 85.A843.T.AKT532 T94.965.AKQ42.Q9"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+Pass    1S      2C      2D      
+Pass    3D      Pass    4S      
+Pass    Pass    Pass    
+[Play "S"]
+CA
+*
+{Comment:
+L'As de C?ur étant sans doute mal placé, il vous faudra faire cinq levées de \D.
+Avez-vous remarqué qu'en cas de partage 3-1, le plus probable, la couleur sera bloquée?
+Que faire? Il existe un moyen astucieux et sans danger : défausser un de vos \D sur la continuation \C.. Votre Roi de C?ur reste protégé et les \D utilisables.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     300       0    100       0      10     14 
+    21     200       0     95       4       8     13 
+     1     130       0     91       8       7     13 
+   119     100       0     68      31       6     12 
+     1       0      90     45      54       2     11 
+     3       0     100     44      55       1     11 
+     1       0     110     43      56       1     11 
+    16       0     140     40      59       0     10 
+     1       0     150     37      62       0     10 
+     5       0     170     35      64      -1     10 
+     9       0     200     33      66      -2      9 
+     1       0     500     31      68      -8      3 
+     1       0     600     30      69     -10      1 
+    74       0     620     16      83     -10      0 
+     6       0     650      1      99     -11     -1 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "30"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "None"]
+[Deal "N:A853.T42.K7.T965 K2.AQ95.QT3.AQ74 QJT97.J76.542.J3 64.K83.AJ986.K82"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "E"]
+1NT     Pass    3NT     Pass    
+Pass    Pass    
+[Play "S"]
+SQ
+*
+{Comment:
+Vous avez huit levées de tête.
+Avant de faire l'impasse à \D, il faut essayer de trouver la neuvième grâce à un partage favorable des \C et des C?urs. Si l'une des deux couleurs est 3-3, la neuvième levée est assurée. Une fois le contrat acquis, jouez quand même la \DD pour le cas où Sud aurait la gentillesse de couvrir, mais à défaut prenez de l'As.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+    11     100       0     98       1       8     11 
+    86      50       0     79      20       7     10 
+     1       0      90     62      37       4      7 
+     1       0     120     62      37       3      7 
+     1       0     140     61      38       3      6 
+     1       0     150     61      38       3      6 
+     2       0     200     60      39       1      5 
+   125       0     400     36      63      -4      0 
+    26       0     430      7      92      -5     -1 
+     1       0     450      1      98      -5     -2 
+     1       0     460      1      98      -6     -2 
+     1       0     490      1      98      -6     -3 
+     1       0     550      0      99      -7     -4 
+     2       0     800      0      99     -11     -9 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "31"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "NS"]
+[Deal "N:K432.KT87.62.AKJ A76.Q64.KT9.9764 QJ95.AJ3.A854.QT T8.952.QJ73.8532"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "4S"]
+[Result "10"]
+[Auction "S"]
+1D      Pass    1H      Pass    
+1S      Pass    4S      Pass    
+Pass    Pass    
+[Play "W"]
+C5
+*
+{Comment:
+4\S = 12-15 S, quatre atouts.
+L'entame \C a le mérite d'être neutre... Le C?ur, éventuellement perdant, pourra être défaussé sur une extra-gagnante \C et il suffit de couper deux \D au mort pour amasser onze levées. Alors en avant. \C pris en main et petit \D des deux mains. Est rejoue \SA et \S pour votre Dame. \DA, \D coupé, C?ur pour l'As, \D coupé maître... et le tour est joué.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     5     660       0     98       1       1      0 
+    81     650       0     74      25       0      0 
+     8     630       0     48      51       0     -1 
+    67     620       0     27      73      -1     -1 
+     5     600       0      6      93      -1     -2 
+     1     200       0      4      95     -10    -10 
+     6       0     100      2      97     -12    -13 
+     2       0     200      0      99     -13    -13 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "32"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "EW"]
+[Deal "N:AJ94.AQ.543.AQ65 Q6.JT9875.A6.873 K75.K6.QJT98.K94 T832.432.K72.JT2"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "W"]
+Pass    1NT     Pass    3NT     
+Pass    Pass    Pass    
+[Play "E"]
+HJ
+*
+{Comment:
+L'entame C?ur ne vous laisse pas le temps d'affranchir les \D. Vous devez faire sept levées dans les couleurs noires.
+Si vous faites quatre \C, vous n'aurez besoin que de trois \S et pourrez appliquer le maniement de sécurité. Mais si vous ne faites que trois \C, il vous faudra faire quatre levées à \S et tenter l'impasse à la Dame.
+Prenez l'entame C?ur de la Dame et testez les \C. Comme ils sont partagés, tirez l'\SA et rejouez \S vers le Roi. La Dame vient en Est, ce qui vous permet de capturer le 10 d'Ouest et de faire dix levées.
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     490       0    100       0       9      2 
+    14     460       0     95       4       9      1 
+    11     430       0     88      11       8      0 
+    36     400       0     75      25       8     -1 
+     1     100       0     64      35       1     -8 
+    44       0      50     51      48      -4    -10 
+    53       0     100     23      76      -5    -11 
+    13       0     150      4      95      -6    -11 
+     1       0     200      0      99      -7    -12 
+     1       0     250      0     100      -8    -12 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "33"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "None"]
+[Deal "N:AQJT643.3.J3.K54 K8.Q876.KQ8.A983 75.AKJT54.A75.76 92.92.T9642.QJT2"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "4S"]
+[Result "10"]
+[Auction "N"]
+1S      x       xx      2D      
+4S      Pass    Pass    Pass    
+[Play "E"]
+DK
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     630       0    100       0      10      0 
+     1     530       0     99       0       8     -3 
+    11     450       0     94       5       6     -5 
+    55     420       0     70      29       6     -5 
+     1     250       0     49      50       2     -9 
+     4     170       0     47      52      -1    -10 
+    47       0      50     28      71      -6    -12 
+    12       0     100      7      93      -7    -12 
+     4       0     150      1      98      -8    -13 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "34"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "NS"]
+[Deal "N:AQ5.K63.9.QT7643 J84.975.J872.J95 97.AT4.A6543.AK8 KT632.QJ82.KQT.2"]
+[Scoring "MP"]
+[Declarer "S"]
+[Contract "3NT"]
+[Result "9"]
+[Auction "E"]
+Pass    1NT     2C      3NT     
+Pass    Pass    Pass    
+[Play "W"]
+DQ
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1    1370       0    100       0      12     12 
+     1     920       0     98       1       6      6 
+     3     720       0     96       4       2      2 
+    31     690       0     73      26       1      1 
+    21     660       0     38      61       0      0 
+     5     630       0     21      78      -1     -1 
+     3     620       0     16      84      -2     -1 
+     4     600       0     11      88      -2     -2 
+     1     210       0      8      92     -10    -10 
+     2     170       0      6      94     -11    -10 
+     2     150       0      3      96     -11    -11 
+     1     130       0      1      98     -11    -11 
+     1       0     300      0     100     -14    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "35"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "EW"]
+[Deal "N:J65.Q6.76532.K94 QT982.2.AKQJ.832 43.AT854.4.AQJT5 AK7.KJ973.T98.76"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "4S"]
+[Result "9"]
+[Auction "S"]
+1H      Pass    1NT     2S      
+3C      4S      Pass    Pass    
+Pass    
+[Play "S"]
+D4
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     200       0    100       0      10      3 
+     8     100       0     92       7       9      0 
+     4       0      50     83      16       6     -4 
+     3       0     100     77      22       5     -5 
+     8       0     140     69      31       4     -6 
+     3       0     150     60      39       4     -6 
+     8       0     170     51      48       3     -7 
+     7       0     200     39      60       2     -7 
+     1       0     500     33      66      -6    -12 
+     8       0     620     26      73      -8    -12 
+     2       0     630     18      81      -8    -12 
+     6       0     650     11      88      -9    -13 
+     1       0     790      6      93     -11    -13 
+     3       0     800      3      96     -11    -14 
+     1       0     930      0     100     -12    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "36"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "All"]
+[Deal "N:J43.74.T87.KQ874 95.A965.KQ43.J65 AQ2.32.J92.AT932 KT876.KQJT8.A65."]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "4H"]
+[Result "10"]
+[Auction "W"]
+1S      Pass    1NT     Pass    
+2H      Pass    3H      Pass    
+4H      Pass    Pass    Pass    
+[Play "N"]
+CK
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1       0       0    100       0      12     12 
+     1       0     200     98       2      10     10 
+     2       0     230     95       5      10     10 
+     1       0     620     92       8       2      2 
+    12       0     650     79      21       1      1 
+    30       0     680     37      63       0      0 
+     1       0     710      6      94      -1     -1 
+     2       0    1430      3      97     -13    -13 
+     1       0    1660      0     100     -14    -14 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "37"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "N"]
+[Vulnerable "NS"]
+[Deal "N:J2.AQ753.AT92.Q4 AQT863.2.K7.9752 54.K94.Q63.KT863 K97.JT86.J854.AJ"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3S"]
+[Result "9"]
+[Auction "N"]
+1H      2S      3H      3S      
+Pass    Pass    Pass    
+[Play "S"]
+H4
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     6       0     140     68      31       2      0 
+     1       0     200     25      75       0     -2 
+     1       0     500     12      87      -7     -8 
+     1       0     590      0     100      -9    -10 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "38"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "E"]
+[Vulnerable "EW"]
+[Deal "N:A84.J932.J8.T874 JT65.T7.Q965.A32 KQ973.A864.T3.K5 2.KQ5.AK742.QJ96"]
+[Scoring "MP"]
+[Declarer "E"]
+[Contract "3D"]
+[Result "9"]
+[Auction "E"]
+Pass    1S      x       2S      
+Pass    Pass    x       Pass    
+3D      Pass    Pass    Pass    
+[Play "S"]
+SK
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     140       0    100       0       6      7 
+     2       0      50     81      18       2      2 
+     5       0     130     37      62      -1      0 
+     1       0     300      0     100      -5     -5 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "39"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "S"]
+[Vulnerable "All"]
+[Deal "N:Q8.KJ.A9652.QJ84 A963.Q3.JT4.K975 T42.875.KQ7.AT32 KJ75.AT9642.83.6"]
+[Scoring "MP"]
+[Declarer "W"]
+[Contract "3S"]
+[Result "8"]
+[Auction "S"]
+Pass    Pass    1D      Pass    
+1NT     2H      3C      3D      
+x       3S      Pass    Pass    
+Pass    
+[Play "N"]
+DA
+*
+{Comment:
+
+}
+{
+[FreqTable "Freq\5L;Score_NS\6R;Score_EW\6R;Perc_NS\5R; Perc_EW\5R;IMP_NS\5R;IMP_EW\5R"]
+  Freq.  NS-Sc   EW-Sc   NS-%    EW-%  NS-imp EW-imp
+     1     200       0    100       0       6      3 
+     2     110       0     81      18       4      0 
+     1     100       0     62      37       4      0 
+     2       0     110     43      56      -2     -5 
+     2       0     140     18      81      -3     -6 
+     1       0     170      0     100      -4     -7 
+}
+
+[Event "E -Engels-Frans 1801"]
+[Site "www.vijnberg.nl"]
+[Date "2018.01.24"]
+[Board "40"]
+[West ""]
+[North ""]
+[East ""]
+[South ""]
+[Dealer "W"]
+[Vulnerable "None"]
+[Deal "N:AKJ973.2.T65.973 Q854.AJ.AK74.T86 T.KQ9763.Q82.A54 62.T854.J93.KQJ2"]
+[Scoring "MP"]
+[Declarer "N"]
+[Contract "2S"]
+[Result "7"]
+[Auction "W"]
+Pass    2S      Pass    Pass    
+Pass    
+[Play "E"]
+DA
+*
+{Comment:
+
+}
+}
+
