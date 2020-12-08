@@ -1,11 +1,32 @@
 # pybridge
 ## tkinter based bridge emulator
 
-### Maarten Krol, 2020
+### Based on the work of Maarten Krol, october 2020
 
 This is a python-based multi-player bridge program, intended for playing bridge in home setting.
 Each player starts an own instance of the bridge program, and communication is performed through **sockets**.
 Currently, we play this on a unix-based server with a Anaconda python installation (3.6).
+
+Some packages migth be missing from your distribution, install them :
+
+tkinter = "sudo apt-get install -y python-tk" (restart after)
+numpy = "sudo apt-get install -y python-numpy" 
+imagetk + pil = "sudo apt-get install -y python-pil.imagetk"
+
+
+Warning : Tkinter tends to crash on multiple distributions, here is a non-exhaustive list : 
+
+Not working : 
+
+Debian 10 (buster)
+
+Working :
+
+Ubuntu 20.04
+
+Try to take care of the following path : 
+
+bridge.py => ligne 1574 => change the path to access player.txt that is in the main folder. (bridge)
 
 Each player logs into the server. Here the communication is started by:
 
