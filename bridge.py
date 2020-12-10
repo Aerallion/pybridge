@@ -192,7 +192,7 @@ class bidding_box:
                     pressed.played = True
                     if play_info.to_play == 'N':
                         self.place_bid(pressed,self.north,self.nx,self.ny,-self.dx)
-                    elif play_info.to_play == 'E':
+                    elif play_info.to_play == 'O':
                         self.place_bid(pressed,self.east,self.ex,self.ey,-self.dx)
                     elif play_info.to_play == 'S':
                         self.place_bid(pressed,self.south,self.sx,self.sy,-self.dx)
@@ -348,7 +348,7 @@ class bidding_box:
             set_player(play_info.to_play)
             if play_info.to_play == 'N':
                 b,self.north = self.unplace_bid(b,self.north,self.dx)
-            elif play_info.to_play == 'E':
+            elif play_info.to_play == 'O':
                 b,self.east = self.unplace_bid(b,self.east,self.dx)
             elif play_info.to_play == 'S':
                 b,self.south = self.unplace_bid(b,self.south,self.dx)
@@ -462,8 +462,8 @@ class logistics:
         # some counters
         self.ncards = 0   # number of valid cards played
         self.allcards = 0 # total of the 52 cards to be played
-        nesw = ['N','E','S','W']
-        eswn = ['E','S','W','N']
+        nesw = ['N','O','S','W']
+        eswn = ['O','S','W','N']
         self.nextp = dict(zip(nesw,eswn))
         self.prevp = dict(zip(eswn,nesw))
         # dictionary of card values to determine trick winner:
@@ -525,7 +525,7 @@ class logistics:
                 return
             leader = self.tplayer.get()
             leader = leader.upper()
-            pall = 'NESW'
+            pall = 'NOSW'
             if pall.find(leader) != -1:
                 self.leader = leader
             else:    
@@ -872,11 +872,11 @@ def read_game():
                             line = g.readline()
                             play_info.deal = [int(i)-1 for i in line.split(',')]
                 else:
-                    if play_info.master : messagebox.showerror("Error", f"File {filen} not found")
+                    if play_info.master : messagebox.showerror("Error", f"Bestand {filen} niet gevonden")
                     play_info.dread = False
                     return
         else:   # random game stirred by seed != 0:
-            options = ['E/NS','N/--','S/EW','W/allen']
+            options = ['O/NS','N/--','S/OW','W/allen']
             #enforce same seed based on microseconds time
             random.seed(play_info.seed)
             dealer = options[random.randint(0,3)]
@@ -921,14 +921,14 @@ def read_pbn(play):
                     if line.count('Dealer ') == 1: 
                        dealer = get_value(line)
                        if dealer == 'S': dealer = 'S'
-                       if dealer == 'E': dealer = 'E'
+                       if dealer == 'E': dealer = 'O'
                        play_info.dealer = dealer
                     if line.count('Vulnerable ') == 1: 
                        vuln = get_value(line)
                        if vuln == 'None': vuln = '--'
                        if vuln == 'All': vuln = 'allen'
                        if vuln == 'NS': vuln = 'NS'
-                       if vuln == 'EW': vuln = 'EW'
+                       if vuln == 'EW': vuln = 'OW'
                        play_info.vuln = vuln
                     if line.count('Deal ') == 1: 
                        xplay = get_value(line)
@@ -1010,7 +1010,7 @@ class create_playfield:
         fontStyle = tkFont.Font(family="Inconsolata", size=32)
         c.create_text((x1+x2)/2,y1+dy,text='N',font=fontStyle, fill='white')
         c.create_text((x1+x2)/2,y2-dy,text='S',font=fontStyle, fill='white')
-        c.create_text(x2-dx,(y1+y2)/2,text='E',font=fontStyle, fill='white')
+        c.create_text(x2-dx,(y1+y2)/2,text='O',font=fontStyle, fill='white')
         c.create_text(x1+dx,(y1+y2)/2,text='W',font=fontStyle, fill='white')
         # position of the player box: 
         dd = 24
@@ -1028,7 +1028,7 @@ class create_playfield:
         fontStyle = tkFont.Font(family="Inconsolata", size=20, weight=tkFont.BOLD)
         if hand == 'N':
             c.create_text(self.nxpos+55,self.nypos-75,anchor=NW, text='DUMMY',font = fontStyle, fill = 'white')
-        elif hand == 'E':
+        elif hand == 'O':
             c.create_text(self.expos+25,self.eypos-40,anchor=NW, text='DUMMY',font = fontStyle, fill = 'white')
         elif hand == 'S':
             c.create_text(self.sxpos+55,self.sypos+90,anchor=NW, text='DUMMY',font = fontStyle, fill = 'white')
@@ -1045,7 +1045,7 @@ class create_playfield:
         c.create_text(10,90,anchor=NW, text='Contract',font = fontStyle, fill='white')
         c.create_text(150,90,anchor=NW, text='Player',font = fontStyle, fill='white')
         c.create_text(105,10,anchor=NW, text='Success NS',font = fontStyle, fill='white')
-        c.create_text(105,50,anchor=NW, text='Success EW',font = fontStyle, fill='white')
+        c.create_text(105,50,anchor=NW, text='Success OW',font = fontStyle, fill='white')
 
     def indicate_vuln(self,vuln):
         x1 = 362; x2 = 842
@@ -1055,13 +1055,13 @@ class create_playfield:
         if vuln == 'allen':
             c.create_text((x1+x2)/2,y1+dy,text='N',font=fontStyle, fill='orange red')
             c.create_text((x1+x2)/2,y2-dy,text='S',font=fontStyle, fill='orange red')
-            c.create_text(x2-dx,(y1+y2)/2,text='E',font=fontStyle, fill='orange red')
+            c.create_text(x2-dx,(y1+y2)/2,text='O',font=fontStyle, fill='orange red')
             c.create_text(x1+dx,(y1+y2)/2,text='W',font=fontStyle, fill='orange red')
         elif vuln == 'NS':
             c.create_text((x1+x2)/2,y1+dy,text='N',font=fontStyle, fill='orange red')
             c.create_text((x1+x2)/2,y2-dy,text='S',font=fontStyle, fill='orange red')
-        elif vuln == 'EW':
-            c.create_text(x2-dx,(y1+y2)/2,text='E',font=fontStyle, fill='orange red')
+        elif vuln == 'OW':
+            c.create_text(x2-dx,(y1+y2)/2,text='O',font=fontStyle, fill='orange red')
             c.create_text(x1+dx,(y1+y2)/2,text='W',font=fontStyle, fill='orange red')
         else:
             None
@@ -1109,7 +1109,7 @@ class undo_redo:
                     if play_info.dummy == 'N':
                         nvis.set(0)
                         c.create_text(playfield.nxpos+55,playfield.nypos-75,anchor=NW, text='DUMMY',font = fontStyle, fill = 'dark green')
-                    elif play_info.dummy == 'E':
+                    elif play_info.dummy == 'O':
                         evis.set(0)
                         c.create_text(playfield.expos+25,playfield.eypos-40,anchor=NW, text='DUMMY',font = fontStyle, fill = 'dark green')
                     elif play_info.dummy == 'S':
@@ -1137,7 +1137,7 @@ class undo_redo:
                         north.played = None
                     elif btn.hand == 'S': 
                         south.played = None
-                    elif btn.hand == 'E': 
+                    elif btn.hand == 'O': 
                         east.played = None
                     else:  # @btn.hand == 'west': 
                         west.played = None
@@ -1187,7 +1187,7 @@ class undo_redo:
                     btn.ypos = action[3]
                     if btn.hand == 'N': north.played = btn
                     if btn.hand == 'S': south.played = btn
-                    if btn.hand == 'E': east.played = btn
+                    if btn.hand == 'O': east.played = btn
                     if btn.hand == 'W': west.played = btn
                     play_info.to_play = action[4]
                     play_info.lead    = action[5]
@@ -1199,7 +1199,7 @@ class undo_redo:
                             playfield.write_dummy('N')
                         elif play_info.dummy == 'O':
                             evis.set(1)
-                            playfield.write_dummy('E')
+                            playfield.write_dummy('O')
                         elif play_info.dummy == 'S':
                             svis.set(1)
                             playfield.write_dummy('S')
@@ -1310,9 +1310,9 @@ def play_card(card,to_x,to_y):
         if play_info.dummy == 'N':
             nvis.set(1)
             playfield.write_dummy('N')
-        elif play_info.dummy == 'E':
+        elif play_info.dummy == 'O':
             evis.set(1)
-            playfield.write_dummy('E')
+            playfield.write_dummy('O')
         elif play_info.dummy == 'S':
             svis.set(1)
             playfield.write_dummy('S')
@@ -1356,7 +1356,7 @@ def set_player(playerx):
     play_info.bigtext['text']=playerx
     if   playerx == 'N':
         play_info.bigtext.place(x=playfield.nxpos,y=playfield.nypos)
-    elif playerx == 'E':
+    elif playerx == 'O':
         play_info.bigtext.place(x=playfield.expos,y=playfield.eypos)
     elif playerx == 'S':
         play_info.bigtext.place(x=playfield.sxpos,y=playfield.sypos)
@@ -1366,7 +1366,7 @@ def set_player(playerx):
 
 def who_wins():
     # get color and values of cards..
-    hands=['N','E','S','W']
+    hands=['N','O','S','W']
     cards=[north.played.cardname,east.played.cardname,south.played.cardname,west.played.cardname]
     value = []
     for card in cards:
@@ -1571,7 +1571,7 @@ if __name__ == "__main__":
     # determine players for tonight, get pictures later:
     width = 70
     height = 70
-    with open(os.path.expanduser('~')+'/pybridge/players.txt','r') as f:
+    with open(os.path.expanduser('~')+'/bridge_v5/players.txt','r') as f:
         players = []
         for i in range(4):
             line = f.readline().split()
@@ -1614,7 +1614,7 @@ if __name__ == "__main__":
         xhand = '-'
         if len(sys.argv) > 1: xhand = sys.argv[1]
         if xhand == 'N': nvis.set(1)
-        if xhand == 'E': evis.set(1)
+        if xhand == 'O': evis.set(1)
         if xhand == 'S': svis.set(1)
         if xhand == 'W': wvis.set(1)
 
@@ -1650,8 +1650,8 @@ if __name__ == "__main__":
 
         visn = Checkbutton(c, text='N', font = labelfont, variable=nvis, command = set_visibility)
         if xhand == 'N' or xhand == 'A' or xhand == 'M': visn.place(x = 1170, y = 105)
-        vise = Checkbutton(c, text='E', font = labelfont, variable=evis, command = set_visibility)
-        if xhand == 'E' or xhand == 'A' or xhand == 'M': vise.place(x = 1190, y = 130)
+        vise = Checkbutton(c, text='O', font = labelfont, variable=evis, command = set_visibility)
+        if xhand == 'O' or xhand == 'A' or xhand == 'M': vise.place(x = 1190, y = 130)
         viss = Checkbutton(c, text='S', font = labelfont, variable=svis, command = set_visibility)
         if xhand == 'S' or xhand == 'A' or xhand == 'M': viss.place(x = 1170, y = 155)
         visw = Checkbutton(c, text='W', font = labelfont, variable=wvis, command = set_visibility)
@@ -1664,7 +1664,7 @@ if __name__ == "__main__":
         # setup hands:
         north = hand(250,10,40,20, 0,60, 539 ,212,'N')
         south = hand(250,620,40,20, 0,60, 539,420,'S')
-        east = hand(850,210,40,20, 0,70, 679,324,'E')
+        east = hand(850,210,40,20, 0,70, 679,324,'O')
         west = hand(10,210,40, 20 ,0,70, 397,324,'W')
         # set_up bidding box
         bidbox = bidding_box()
