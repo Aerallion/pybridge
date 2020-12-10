@@ -540,8 +540,8 @@ class logistics:
                 if self.player != 'N':
                    visn = Checkbutton(c, text='N', font = labelfont, variable=nvis, command = set_visibility)
                    visn.place(x = 1170, y = 105)
-                if self.player != 'O':
-                   vise = Checkbutton(c, text='O', font = labelfont, variable=evis, command = set_visibility)
+                if self.player != 'E':
+                   vise = Checkbutton(c, text='E', font = labelfont, variable=evis, command = set_visibility)
                    vise.place(x = 1190, y = 130)
                 if self.player != 'S':
                    viss = Checkbutton(c, text='S', font = labelfont, variable=svis, command = set_visibility)
@@ -1197,7 +1197,7 @@ class undo_redo:
                         if play_info.dummy == 'N':
                             nvis.set(1)
                             playfield.write_dummy('N')
-                        elif play_info.dummy == 'O':
+                        elif play_info.dummy == 'E':
                             evis.set(1)
                             playfield.write_dummy('O')
                         elif play_info.dummy == 'S':
